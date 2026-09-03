@@ -1,192 +1,260 @@
 # Komite
 
-[PDF / Project Deck](docs/Komite-Open-Project-Deck-v0.1.pdf)
-
 > Bu yayın araştırma ve tasarım belgeleridir; çalışan uygulama, kurulabilir paket veya üretime hazır hizmet değildir. Aşağıdaki ifadeler hedefleri anlatır, kanıtlanmış özellikleri değil.
 >
 > This release contains research and design documents, not a working application, installable package or production-ready service. The statements below describe objectives, not proven capabilities.
 
-Daha iyi kararlar. Daha iyi gelecek.
-
-Better decisions. Better future.
+## Daha iyi kararlar. Daha iyi gelecek.
 
 Açık kaynak karar destek projesi
 
+**Barbaros Hayrettin Bal**  
+Bağımsız Geliştirici  
+[barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barbarosb/)
+
+### EN · Better decisions. Better future.
+
 Open-source decision support project
 
-Barbaros Hayrettin Bal · Bağımsız Geliştirici
+**Barbaros Hayrettin Bal**  
+Independent Developer  
+[barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barbarosb/)
 
-Independent Developer · barbaroshbal@gmail.com · LinkedIn : https://www.linkedin.com/in/barbarosb/
+---
 
 ## 01 · MERHABA DÜNYA
 
-HELLO, WORLD
-
 Türkiye benim evim, dünya mahallem.
-
-Türkiye is my home. The world is my neighborhood.
 
 Amacım; komşularımla birlikte, daha iyi kararların alındığı, daha huzurlu, daha mutlu ve daha güzel bir gelecekte yaşamak.
 
+**Milyarlarca beyin, bir beyinden daha akıllıdır.**
+
+### EN · HELLO, WORLD
+
+Türkiye is my home. The world is my neighborhood.
+
 My goal is to live with my neighbors in a more peaceful, happier and better future shaped by better decisions.
 
-Milyarlarca beyin, bir beyinden daha akıllıdır.
+**Billions of brains are smarter than one.**
 
-Billions of brains are smarter than one.
+---
 
 ## 02 · PROBLEM
 
-PROBLEM
-
 İnsanlar her zaman gerçekten düşündüklerini söylemez.
-
-People do not always say what they really think.
 
 Hiyerarşi, sosyal baskı, otorite etkisi, kariyer riski ve grup dinamikleri gerçek görüşleri değiştirebilir, yumuşatabilir veya görünmez hale getirebilir.
 
+### EN · PROBLEM
+
+People do not always say what they really think.
+
 Hierarchy, social pressure, authority, career risk and group dynamics can distort, soften or suppress genuine opinions.
 
-## 03 · TEMEL TEZ
+---
 
-CORE THESIS
+## 03 · TEMEL TEZ
 
 Kimlerin katılabileceği doğrulanabilir olmalı.
 
 Kimin ne tercih ettiği belirlenememeli.
 
-Membership must be verifiable. Individual choice must not be attributable.
+### 01 · İnsan uygunluğu
 
-01 · İnsan uygunluğu  —  Yalnızca doğrulanmış gerçek insanlar katılabilir.
+Yalnızca doğrulanmış gerçek insanlar katılabilir.
 
-01 · Human eligibility  —  Only verified real humans may participate.
+### 02 · Bağlantısızlık
 
-02 · Bağlantısızlık  —  Gerçek kimlik ile seçim arasında yeniden kurulabilir bir bağ olmamalıdır.
+Gerçek kimlik ile seçim arasında yeniden kurulabilir bir bağ olmamalıdır.
 
-02 · Unlinkability  —  There should be no recoverable link between real identity and individual choice.
+### EN · CORE THESIS
 
-## 04 · Komite NEDIR?
+Membership must be verifiable.
 
-WHAT IS Komite?
+Individual choice must not be attributable.
+
+#### 01 · Human eligibility
+
+Only verified real humans may participate.
+
+#### 02 · Unlinkability
+
+There should be no recoverable link between real identity and individual choice.
+
+---
+
+## 04 · Komite NEDİR?
 
 Komite bir seçim sistemi değildir.
 
-Komite is not an election system.
-
 Yönetici seçmez. Temsilci seçmez. Referandum yürütmez. Bağlayıcı karar üretmez.
-
-It does not elect leaders or representatives, conduct referendums, or produce binding decisions.
 
 Komite, karar sahibine karar öncesinde daha geniş, daha dürüst ve daha nitelikli kolektif sinyal sağlar.
 
+### EN · WHAT IS Komite?
+
+Komite is not an election system.
+
+It does not elect leaders or representatives, conduct referendums, or produce binding decisions.
+
 Komite provides broader, more candid and higher-quality collective signals before a decision is made.
 
-## 05 · KARAR DESTEĞI
+---
 
-DECISION SUPPORT
+## 05 · KARAR DESTEĞİ
 
-Oy sonucu kararın kendisi değildir.
+**Oy sonucu kararın kendisi değildir.**
 
-Karar için bir girdidir.
+**Karar için bir girdidir.**
 
-The vote is not the decision. It is an input to the decision.
+Şirketler, ekipler, STK’lar ve kamu kurumları Komite’yi danışma ve karar destek amacıyla kullanabilir.
 
-Şirketler, ekipler, STK’lar ve kamu kurumları Komite’yi danışma ve karar destek amacıyla kullanabilir. Komite seçim, temsilci veya yönetici seçimi, referandum, bağlayıcı kamu oylaması ya da resmî seçim altyapısı değildir.
+Komite seçim, temsilci veya yönetici seçimi, referandum, bağlayıcı kamu oylaması ya da resmî seçim altyapısı değildir.
 
-Companies, teams, NGOs and public institutions may use Komite for consultation and decision support. Komite is not an election, representative or leader selection system, referendum, binding public vote, or official election infrastructure.
+### EN · DECISION SUPPORT
+
+**The vote is not the decision.**
+
+**It is an input to the decision.**
+
+Companies, teams, NGOs and public institutions may use Komite for consultation and decision support.
+
+Komite is not an election, representative or leader selection system, referendum, binding public vote, or official election infrastructure.
+
+---
 
 ## 06 · KARAR DÖNGÜSÜ
 
-DECISION CYCLE
+**Problem Tanımı → Komite → Anlama Kontrolü → Anonim Seçim → Alternatif Tavsiye → Toplu Sonuç → Karar → Sonuç → Öğrenme ↻**
 
-Problem Tanımı → Komite → Anlama Kontrolü → Anonim Seçim → Alternatif Tavsiye → Toplu Sonuç → Karar → Sonuç → Öğrenme ↻
+### Yönetim izi
 
-Problem Definition → Komite → Understanding Gate → Anonymous Choice → Alternative Recommendation → Aggregate Result → Decision → Outcome → Learning ↻
+**Karar Sahibi → Uygunluk Kuralı → Soru → Seçenekler → Komite → Sonuç → Nihai Karar**
 
-Yönetim izi · Karar Sahibi → Uygunluk Kuralı → Soru → Seçenekler → Komite → Sonuç → Nihai Karar<br>
 Anonimlik, kimin davet edildiği veya seçeneklerin nasıl çerçevelendiği sorununu tek başına çözmez.
 
-Governance provenance · Decision Owner → Eligibility Rule → Question → Options → Komite → Result → Final Decision<br>
+### EN · DECISION CYCLE
+
+**Problem Definition → Komite → Understanding Gate → Anonymous Choice → Alternative Recommendation → Aggregate Result → Decision → Outcome → Learning ↻**
+
+#### Governance provenance
+
+**Decision Owner → Eligibility Rule → Question → Options → Komite → Result → Final Decision**
+
 Anonymity alone does not solve who is invited or how choices are framed.
+
+---
 
 ## 07 · KATILIMCI AKIŞI
 
-PARTICIPANT FLOW
+### 01 · Anlama Kontrolü
 
-01 · Anlama Kontrolü
+Kararın bağlamını anlamaya yönelik çoktan seçmeli sorular.
 
-Kararın bağlamını anlamaya yönelik çoktan seçmeli sorular. Yanlış cevap katılım hakkını kaldırmaz.
+Yanlış cevap katılım hakkını kaldırmaz.
 
-Understanding Gate · Multiple-choice questions about the decision context. Incorrect answers do not remove participation rights.
+### 02 · Ana Seçim
 
-02 · Ana Seçim
+**Kabul · Red · Çekimser**
 
-Kabul · Red · Çekimser
+### 03 · Alternatif Tavsiye
 
-Approve · Reject · Abstain
+Önceden tanımlı seçeneklerden isteğe bağlı tavsiye.
 
-03 · Alternatif Tavsiye
+İlk tasarımda serbest metin yok.
 
-Önceden tanımlı seçeneklerden isteğe bağlı tavsiye. İlk tasarımda serbest metin yok.
+### EN · PARTICIPANT FLOW
 
-Optional recommendation from predefined alternatives. No free text in the initial design.
+#### 01 · Understanding Gate
 
-## 08 · BASIT MODEL
+Multiple-choice questions about the decision context.
 
-SIMPLE MODEL
+Incorrect answers do not remove participation rights.
 
-Tek kapı. Tek anahtar. Tek seçim.
+#### 02 · Main Choice
 
-One door. One key. One choice.
+**Approve · Reject · Abstain**
+
+#### 03 · Alternative Recommendation
+
+Optional recommendation from predefined alternatives.
+
+No free text in the initial design.
+
+---
+
+## 08 · BASİT MODEL
+
+**Tek kapı. Tek anahtar. Tek seçim.**
 
 Bu bir teknik çözüm değil; çözmeye çalıştığımız güvenlik problemini anlatan bir metafordur.
 
+**Gerçek insan → Kimlik doğrulama → Tek kullanımlık anahtar → Kapı → Seçim → Toplu sonuç**
+
+### EN · SIMPLE MODEL
+
+**One door. One key. One choice.**
+
 This is not a technical solution. It is a metaphor for the security problem we are trying to solve.
 
-Gerçek insan → Kimlik doğrulama → Tek kullanımlık anahtar → Kapı → Seçim → Toplu sonuç
+**Real human → Identity verification → Single-use key → Door → Choice → Aggregate result**
 
-Real human → Identity verification → Single-use key → Door → Choice → Aggregate result
+---
 
 ## 09 · KAPI VE ODA
 
-THE DOOR AND THE ROOM
+**Kapı kimin girmeye hakkı olduğunu bilir.**
 
-Kapı kimin girmeye hakkı olduğunu bilir.
+**Oda içeri girenin kim olduğunu bilmez.**
 
-Oda içeri girenin kim olduğunu bilmez.
+Kimlik kapıdan önce vardır.
 
-The door knows who is allowed in. The room does not know who entered.
+Seçim kapıdan sonra vardır.
 
-Kimlik kapıdan önce vardır. Seçim kapıdan sonra vardır. İkisi bir daha buluşmamalıdır.
+**İkisi bir daha buluşmamalıdır.**
 
-Identity exists before the door. Choice exists after the door. They must not meet again.
+### EN · THE DOOR AND THE ROOM
+
+**The door knows who is allowed in.**
+
+**The room does not know who entered.**
+
+Identity exists before the door.
+
+Choice exists after the door.
+
+**They must not meet again.**
+
+---
 
 ## 10 · MİMARİ VE GÜVEN SINIRLARI
 
-ARCHITECTURE & TRUST BOUNDARIES
+### Dört katman. Açık güven sınırları.
 
-Dört katman. Açık güven sınırları.
+- **Kimlik / Uygunluk** — kimlerin katılabileceğini bilir; seçimi bilmez.
+- **Oy / Seçim** — geçerli anonim anahtarı ve seçimi görür; kimliği bilmez.
+- **Toplulaştırma / İfşa** — kohort eşiği, sonuç bastırma ve alt grup ifşasını zorlar.
+- **Yönetişim / Çerçeveleme** — karar sahibi, uygunluk kuralı, soru ve seçeneklerin iz kaydını tutar.
+- Aynı operatörün birden fazla katmanı kontrol etmesi veya katmanlar arası işbirliği ayrı bir risk olarak modellenir.
+- v0.1 anonimlik protokolü henüz seçilmedi.
 
-- Kimlik / Uygunluk — kimlerin katılabileceğini bilir; seçimi bilmez
-- Oy / Seçim — geçerli anonim anahtarı ve seçimi görür; kimliği bilmez
-- Toplulaştırma / İfşa — kohort eşiği, sonuç bastırma ve alt-grup ifşasını zorlar
-- Yönetişim / Çerçeveleme — karar sahibi, uygunluk kuralı, soru ve seçeneklerin iz kaydını tutar
-- Aynı operatörün birden fazla katmanı kontrol etmesi veya katmanlar arası işbirliği ayrı bir risk olarak modellenir
-- v0.1 anonimlik protokolü henüz seçilmedi
+### EN · ARCHITECTURE & TRUST BOUNDARIES
 
-Four layers. Explicit trust boundaries.
+#### Four layers. Explicit trust boundaries.
 
-- Identity — knows eligibility, never the choice
-- Ballot — sees a valid anonymous token + choice, never identity
-- Aggregation / Disclosure — enforces cohort thresholds, suppression and subgroup disclosure rules
-- Governance / Framing — records provenance of decision owner, eligibility rule, question and options
-- Common control or cross-layer collusion is an explicit risk
-- The v0.1 anonymity protocol has not yet been selected
+- **Identity / Eligibility** — knows who is eligible; never the choice.
+- **Ballot / Choice** — sees a valid anonymous token and choice; never identity.
+- **Aggregation / Disclosure** — enforces cohort thresholds, suppression and subgroup disclosure rules.
+- **Governance / Framing** — records provenance of decision owner, eligibility rule, question and options.
+- Common control or cross-layer collusion is an explicit risk.
+- The v0.1 anonymity protocol has not yet been selected.
 
-## 11 · GÜVENLIK VE MAHREMIYET HEDEFLERI
+---
 
-SECURITY AND PRIVACY TARGETS
+## 11 · GÜVENLİK VE MAHREMİYET HEDEFLERİ
 
-Kanıtlanması gereken hedefler
+### Kanıtlanması gereken hedefler
 
 - gerçek insan doğrulaması
 - bağlamsal uygunluk
@@ -196,7 +264,9 @@ Kanıtlanması gereken hedefler
 - üstveri minimizasyonu
 - müdahale edildiğinde tespit edilebilir / doğrulanabilir sonuç
 
-Targets to be demonstrated
+### EN · SECURITY AND PRIVACY TARGETS
+
+#### Targets to be demonstrated
 
 - real-human verification
 - contextual eligibility
@@ -206,157 +276,223 @@ Targets to be demonstrated
 - metadata minimization
 - tamper-evident / verifiable result
 
+---
+
 ## 12 · HENÜZ KANITLANMADI
 
-NOT YET PROVEN
+**Anonimlik bir slogan değil, kanıtlanması gereken bir özelliktir.**
 
-Anonimlik bir slogan değil, kanıtlanması gereken bir özelliktir.
+Henüz kanıtlanmadı:
 
-Anonymity is not a slogan. It is a property that must be demonstrated.
+- anonimlik garantisi
+- bağlantısızlık
+- ihlal sonrası bağlantısızlık
+- üretim güvenliği
+- baskıya dayanıklılık
+- küresel tekil insan doğrulaması
+- milyarlarca katılımcıya ölçek
 
-Henüz kanıtlanmadı: anonimlik garantisi · bağlantısızlık · ihlal sonrası bağlantısızlık · üretim güvenliği · baskıya dayanıklılık · küresel tekil insan doğrulaması · milyarlarca katılımcıya ölçek.
+### EN · NOT YET PROVEN
 
-Not yet proven: anonymity guarantees · unlinkability · post-compromise unlinkability · production security · coercion resistance · global unique-human verification · scalability to billions.
+**Anonymity is not a slogan. It is a property that must be demonstrated.**
+
+Not yet proven:
+
+- anonymity guarantees
+- unlinkability
+- post-compromise unlinkability
+- production security
+- coercion resistance
+- global unique-human verification
+- scalability to billions
+
+---
 
 ## 13 · BAĞLAMA GÖRE Komite
 
-CONTEXTUAL COMMITTEES
+### Örnek · Eğitim politikası
 
-Örnek · Eğitim politikası
-
-Example · Education policy
-
-Uzman eğitimciler<br>
-Öğrenciler<br>
-Eğitim çağındaki çocukların aileleri<br>
-Vatandaşlar
-
-Education professionals<br>
-Students<br>
-Families of school-age children<br>
-Citizens
+- Uzman eğitimciler
+- Öğrenciler
+- Eğitim çağındaki çocukların aileleri
+- Vatandaşlar
 
 Her grubun sinyali ayrı ayrı ve toplam olarak incelenebilir; bireysel seçimlerin kimlere ait olduğu bilinmeden.
 
+### EN · CONTEXTUAL COMMITTEES
+
+#### Example · Education policy
+
+- Education professionals
+- Students
+- Families of school-age children
+- Citizens
+
 Signals can be examined by group and in aggregate, without knowing which individual made which choice.
+
+---
 
 ## 14 · KÜÇÜK GRUP İFŞA POLİTİKASI
 
-SMALL-GROUP DISCLOSURE POLICY
-
-Bu bir uç durum değil.
-
-This is not an edge case.
+**Bu bir uç durum değil.**
 
 Varsayılan kullanım bağlamı küçük ve orta büyüklükte Komitelerdir.
 
-Small and medium committees are the default deployment context.
-
-Yayın öncesi zorunlu tasarım kararları:
+### Yayın öncesi zorunlu tasarım kararları
 
 - minimum kohort eşiği
 - eşik altında güvenli kapanma: sonuç yayımlanmaz
-- alt-grup sonuç bastırma / toplulaştırma
+- alt grup sonuç bastırma / toplulaştırma
 - Anlama Kontrolü aynı ifşa kurallarına tabidir
 - dış bilgiyle çıkarım riski varsa detay seviyesi azaltılır
 
-Kesin eşikler henüz kilitlenmedi; bu politika olmadan yayına çıkış yok.
+Kesin eşikler henüz kilitlenmedi.
 
-Required before launch: minimum cohort threshold · fail-closed suppression below threshold · subgroup aggregation/suppression · the Understanding Gate follows the same disclosure rules · reduce detail when outside knowledge creates inference risk. Exact thresholds are not locked yet; no launch without this policy.
+**Bu politika olmadan yayına çıkış yok.**
 
-## 15 · ÖLÇEK HEDEFI
+### EN · SMALL-GROUP DISCLOSURE POLICY
 
-SCALE TARGET
+**This is not an edge case.**
 
-Bir ekipten insanlığın tamamına.
+Small and medium committees are the default deployment context.
 
-From one team to all of humanity.
+#### Required before launch
 
-Bir ekip → şirket → kurum → şehir → bölge → ülke → dünya nüfusu
+- minimum cohort threshold
+- fail-closed suppression below threshold
+- subgroup aggregation / suppression
+- the Understanding Gate follows the same disclosure rules
+- reduce detail when outside knowledge creates inference risk
 
-A team → company → institution → city → region → country → global population
+Exact thresholds are not locked yet.
 
-Bu mevcut performans iddiası değil; uzun vadeli north-star kapasite hedefidir. Ölçek hedefi, küçük-grup güvenlik politikasını gevşetmez.
+**No launch without this policy.**
 
-This is not a current performance claim; it is a long-term north-star capacity target. Scale never relaxes the small-group safety policy.
+---
 
-## 16 · AÇIK ARAŞTIRMA PROBLEMI
+## 15 · ÖLÇEK HEDEFİ
 
-OPEN RESEARCH PROBLEM
+**Bir ekipten insanlığın tamamına.**
 
-Küresel tekil insan doğrulaması + mahremiyet + sybil direnci: üçünün birlikte çözüldüğü varsayılmıyor.
+**Bir ekip → şirket → kurum → şehir → bölge → ülke → dünya nüfusu**
 
-Global unique-human verification + privacy + sybil resistance are not assumed to be solved together.
+Bu mevcut performans iddiası değil; uzun vadeli north-star kapasite hedefidir.
+
+Ölçek hedefi, küçük grup güvenlik politikasını gevşetmez.
+
+### EN · SCALE TARGET
+
+**From one team to all of humanity.**
+
+**A team → company → institution → city → region → country → global population**
+
+This is not a current performance claim; it is a long-term north-star capacity target.
+
+Scale never relaxes the small-group safety policy.
+
+---
+
+## 16 · AÇIK ARAŞTIRMA PROBLEMİ
+
+**Küresel tekil insan doğrulaması + mahremiyet + sybil direnci: üçünün birlikte çözüldüğü varsayılmıyor.**
 
 Komite’nin görevi bu problemi gizlemek değil; açıkça tanımlamak, araştırmak ve bağımsız incelemeye açmaktır.
 
-Komite should not hide this problem. It should define it openly, research it and expose it to independent review.
+### EN · OPEN RESEARCH PROBLEM
+
+**Global unique-human verification + privacy + sybil resistance are not assumed to be solved together.**
+
+Komite should not hide this problem.
+
+It should define it openly, research it and expose it to independent review.
+
+---
 
 ## 17 · KULLANIM ALANLARI · I
 
-USE CASES · I
+### İşletmeler
 
-İşletmeler
+**mikro → küçük → orta → büyük → holding → şirket grubu → çok uluslu şirket → şirket ekosistemi**
 
-mikro → küçük → orta → büyük → holding → şirket grubu → çok uluslu şirket → şirket ekosistemi
+### Kamu kurumları ve yerel yönetimler
 
-Businesses · micro → small → medium → large → holding → corporate group → multinational → business ecosystem
+**yerel yönetimler · belediyeler · il ve bölgesel kurumlar · merkezi kamu kurumları · bakanlıklar · ulusal düzey kurumlar**
 
-Kamu kurumları ve yerel yönetimler
+**Yalnızca danışma ve karar desteği. Seçim, referandum veya bağlayıcı kamu oylaması değildir.**
 
-yerel yönetimler · belediyeler · il ve bölgesel kurumlar · merkezi kamu kurumları · bakanlıklar · ulusal düzey kurumlar
+### EN · USE CASES · I
 
-Public institutions and local government · local authorities · municipalities · provincial and regional institutions · central public institutions · ministries · national-level institutions
+#### Businesses
 
-Yalnızca danışma ve karar desteği. Seçim, referandum veya bağlayıcı kamu oylaması değildir.
+**micro → small → medium → large → holding → corporate group → multinational → business ecosystem**
 
-Consultation and decision support only. Never elections, referendums or binding public voting.
+#### Public institutions and local government
+
+**local authorities · municipalities · provincial and regional institutions · central public institutions · ministries · national-level institutions**
+
+**Consultation and decision support only. Never elections, referendums or binding public voting.**
+
+---
 
 ## 18 · KULLANIM ALANLARI · II
 
-USE CASES · II
+### Kamu kuruluşları · eğitim · sağlık
 
-Kamu kuruluşları · eğitim · sağlık
+**yerel kamu birimi → okul → hastane → üniversite → kamu işletmesi → düzenleyici kurum → ulusal kamu ağı**
 
-yerel kamu birimi → okul → hastane → üniversite → kamu işletmesi → düzenleyici kurum → ulusal kamu ağı
+### Dernekler · vakıflar · STK’lar · meslek örgütleri
 
-Public institutions · education · healthcare
+**yerel → bölgesel → ulusal → uluslararası → küresel ağ**
 
-Dernekler · vakıflar · STK’lar · meslek örgütleri
+### Kooperatifler · sendikalar · işveren örgütleri · federasyonlar · konfederasyonlar
 
-yerel → bölgesel → ulusal → uluslararası → küresel ağ
+### EN · USE CASES · II
 
-Associations · foundations · NGOs · professional organizations · local → regional → national → international → global network
+#### Public institutions · education · healthcare
 
-Kooperatifler · sendikalar · işveren örgütleri · federasyonlar · konfederasyonlar
+**local public unit → school → hospital → university → public enterprise → regulatory institution → national public network**
 
-Cooperatives · unions · employer organizations · federations · confederations
+#### Associations · foundations · NGOs · professional organizations
+
+**local → regional → national → international → global network**
+
+#### Cooperatives · unions · employer organizations · federations · confederations
+
+---
 
 ## 19 · KULLANIM ALANLARI · III
 
-USE CASES · III
+### Bilim ve araştırma · kültür ve sanat · spor
 
-Bilim ve araştırma · kültür ve sanat · spor
+**ekip → laboratuvar → merkez → enstitü → akademi → ulusal kurum → uluslararası konsorsiyum**
 
-ekip → laboratuvar → merkez → enstitü → akademi → ulusal kurum → uluslararası konsorsiyum
+### Yerel topluluklar · dijital topluluklar · sektörel yapılar
 
-Science & research · culture & arts · sports
+**apartman → mahalle → kent konseyi → çevrim içi topluluk → açık kaynak ağı → sektör birliği → küresel konsorsiyum**
 
-Yerel topluluklar · dijital topluluklar · sektörel yapılar
+### Çok paydaşlı Komiteler
 
-apartman → mahalle → kent konseyi → çevrim içi topluluk → açık kaynak ağı → sektör birliği → küresel konsorsiyum
+Kurumlar kararın çevresinde farklı grupları birlikte dinleyebilir.
 
-Local communities · digital communities · industry structures
+### EN · USE CASES · III
 
-Çok paydaşlı Komiteler: kurumlar kararın çevresinde farklı grupları birlikte dinleyebilir.
+#### Science & research · culture & arts · sports
 
-Multi-stakeholder committees: institutions can listen to different groups around the decision itself.
+**team → laboratory → center → institute → academy → national institution → international consortium**
+
+#### Local communities · digital communities · industry structures
+
+**residential community → neighborhood → city council → online community → open-source network → industry association → global consortium**
+
+#### Multi-stakeholder committees
+
+Institutions can listen to different groups around the decision itself.
+
+---
 
 ## 20 · TEHDİT MODELİ ÖZETİ
 
-THREAT MODEL OVERVIEW
-
-Üst düzey tehdit aktörleri
+### Üst düzey tehdit aktörleri
 
 - karar sahibi / süreç sahibi
 - meraklı veya ele geçirilmiş operatör
@@ -368,7 +504,9 @@ THREAT MODEL OVERVIEW
 - yönetişim / çerçeveleme manipülasyonu
 - hukuki veya kurumsal zorlama
 
-High-level threat actors
+### EN · THREAT MODEL OVERVIEW
+
+#### High-level threat actors
 
 - decision owner / process owner
 - curious or compromised operator
@@ -380,97 +518,253 @@ High-level threat actors
 - governance / framing manipulation
 - legal or institutional compulsion
 
-## 21 · AÇIK KAYNAK GELIŞTIRME
+---
 
-OPEN-SOURCE DEVELOPMENT
+## 21 · AÇIK KAYNAK GELİŞTİRME
 
-“Bize güvenin.” yeterli değildir.
+**“Bize güvenin.” yeterli değildir.**
 
-“Trust us.” is not enough.
+Açık biçimde yayımlanması hedeflenenler:
 
-Problem tanımı · tasarım ilkeleri · tehdit modeli · mimari kararları · güvenlik varsayımları · araştırma soruları · testler · başarısızlıklar · bağımsız incelemeler
+- problem tanımı
+- tasarım ilkeleri
+- tehdit modeli
+- mimari kararları
+- güvenlik varsayımları
+- araştırma soruları
+- testler
+- başarısızlıklar
+- bağımsız incelemeler
 
-Problem definition · design principles · threat model · architecture decisions · security assumptions · research questions · tests · failures · independent reviews
+### EN · OPEN-SOURCE DEVELOPMENT
 
-## 22 · KIMLERLE ÇALIŞMAK İSTIYORUZ?
+**“Trust us.” is not enough.**
 
-WHO WE WANT TO WORK WITH
+The project aims to openly publish:
 
-Kriptografi · Privacy Engineering · Application Security · Distributed Systems · Governance · Decision Science · UX · Accessibility · Hukuk · Veri Koruma
+- problem definition
+- design principles
+- threat model
+- architecture decisions
+- security assumptions
+- research questions
+- tests
+- failures
+- independent reviews
 
-Cryptography · Privacy Engineering · Application Security · Distributed Systems · Governance · Decision Science · UX · Accessibility · Law · Data Protection
+---
 
-Aradığımız insanlar Komite’yi onaylayacak insanlar değil; nerede yanlış olduğunu gösterebilecek insanlar.
+## 22 · KİMLERLE ÇALIŞMAK İSTİYORUZ?
 
-We are not looking for people who agree with Komite; we are looking for people capable of showing us where it is wrong.
+- Kriptografi
+- Privacy Engineering
+- Application Security
+- Distributed Systems
+- Governance
+- Decision Science
+- UX
+- Accessibility
+- Hukuk
+- Veri Koruma
+
+Aradığımız insanlar Komite’yi onaylayacak insanlar değil.
+
+**Nerede yanlış olduğunu gösterebilecek insanlar.**
+
+### EN · WHO WE WANT TO WORK WITH
+
+- Cryptography
+- Privacy Engineering
+- Application Security
+- Distributed Systems
+- Governance
+- Decision Science
+- UX
+- Accessibility
+- Law
+- Data Protection
+
+We are not looking for people who agree with Komite.
+
+**We are looking for people capable of showing us where it is wrong.**
+
+---
 
 ## 23 · MEVCUT DURUM
 
-CURRENT STATE
+### TANIMLANDI
 
-TANIMLANDI
+- problem
+- açık kaynak yönü
+- karar destek sınırı
+- anonim seçim hedefi
+- küresel ölçek hedefi
 
-problem · açık kaynak yönü · karar destek sınırı · anonim seçim hedefi · küresel ölçek hedefi
+### ARAŞTIRILIYOR
 
-DEFINED · problem · open-source direction · decision-support boundary · anonymous-choice objective · global scale target
+- kimlik doğrulama
+- anonimlik mimarisi
+- güven sınırları
+- küçük grup politikası
+- yönetişim / çerçeveleme
+- doğrulanabilirlik tanımı
+- baskıya dayanıklılık kapsamı
+- üstveri
+- ölçek mimarisi
 
-ARAŞTIRILIYOR
+### HENÜZ KANITLANMADI
 
-kimlik doğrulama · anonimlik mimarisi · güven sınırları · küçük grup politikası · yönetişim/çerçeveleme · doğrulanabilirlik tanımı · baskıya dayanıklılık kapsamı · üstveri · ölçek mimarisi
+- anonimlik
+- bağlantısızlık
+- ihlal sonrası bağlantısızlık
+- üretim güvenliği
+- baskıya dayanıklılık
+- küresel tekillik
+- milyarlarca katılımcı
 
-BEING RESEARCHED · identity verification · anonymity architecture · trust boundaries · small-group policy · governance/framing · definition of verifiability · coercion scope · metadata · scaling architecture
+### EN · CURRENT STATE
 
-HENÜZ KANITLANMADI
+#### DEFINED
 
-anonimlik · bağlantısızlık · ihlal sonrası bağlantısızlık · üretim güvenliği · baskıya dayanıklılık · küresel tekillik · milyarlarca katılımcı
+- problem
+- open-source direction
+- decision-support boundary
+- anonymous-choice objective
+- global scale target
+
+#### BEING RESEARCHED
+
+- identity verification
+- anonymity architecture
+- trust boundaries
+- small-group policy
+- governance / framing
+- definition of verifiability
+- coercion scope
+- metadata
+- scaling architecture
+
+#### NOT YET PROVEN
+
+- anonymity
+- unlinkability
+- post-compromise unlinkability
+- production security
+- coercion resistance
+- global uniqueness
+- billions of participants
+
+---
 
 ## 24 · İLK HEDEFLER
 
-FIRST MILESTONES
+01 · Specification  
+02 · Independent Review I  
+03 · Threat Model  
+04 · Policy & Trust Boundaries  
+05 · Independent Review II  
+06 · Protocol Decision  
+07 · Security Review  
+08 · Reference Implementation  
+09 · Independent Audit  
+10 · Evidence  
+11 · Iterate ↻
 
-01 Specification<br>
-02 Independent Review I<br>
-03 Threat Model<br>
-04 Policy & Trust Boundaries<br>
-05 Independent Review II<br>
-06 Protocol Decision<br>
-07 Security Review<br>
-08 Reference Implementation<br>
-09 Independent Audit<br>
-10 Evidence<br>
-11 Iterate ↻
+**Önce sınırları ve politikaları kilitle. Sonra protokol seç. İnceleme her aşamada tekrar eder.**
 
-Önce sınırları ve politikaları kilitle. Sonra protokol seç. İnceleme her aşamada tekrar eder.
+### EN · FIRST MILESTONES
 
-Lock boundaries and policies first. Then choose the protocol. Review repeats at every stage.
+01 · Specification  
+02 · Independent Review I  
+03 · Threat Model  
+04 · Policy & Trust Boundaries  
+05 · Independent Review II  
+06 · Protocol Decision  
+07 · Security Review  
+08 · Reference Implementation  
+09 · Independent Audit  
+10 · Evidence  
+11 · Iterate ↻
 
-## Açık çağrı / Open Call
+**Lock boundaries and policies first. Then choose the protocol. Review repeats at every stage.**
 
-Komite’nin açık araştırma sorularına, tasarımına ve bağımsız incelemesine katkıda bulunun. İletişim: Barbaros Hayrettin Bal, Bağımsız Geliştirici / Independent Developer — [barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barbarosb/).
+---
 
-Contribute to Komite’s open research questions, design and independent review. Contact: Barbaros Hayrettin Bal, Independent Developer — [barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barbarosb/).
+## AÇIK ÇAĞRI
+
+Komite’nin açık araştırma sorularına, tasarımına ve bağımsız incelemesine katkıda bulunun.
+
+Aradığımız insanlar Komite’yi onaylayacak insanlar değil; nerede yanlış olduğunu gösterebilecek insanlar.
+
+**Gelin birlikte parçalayalım. Kırılmıyorsa neden kırılmadığını öğrenelim.**
+
+**Barbaros Hayrettin Bal**  
+Bağımsız Geliştirici  
+[barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barbarosb/)
+
+### EN · OPEN CALL
+
+Contribute to Komite’s open research questions, design and independent review.
+
+We are not looking for people who agree with Komite; we are looking for people capable of showing us where it is wrong.
+
+**Let’s try to break it together. If it does not break, let’s understand why.**
+
+**Barbaros Hayrettin Bal**  
+Independent Developer  
+[barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barbarosb/)
+
+---
 
 ## DAHA İYİ KARARLAR. DAHA İYİ GELECEK.
 
-BETTER DECISIONS. BETTER FUTURE.
-
 Komite’nin amacı daha fazla oylama yapmak değil; insanların, kurumların ve toplumların daha iyi bilgiyle daha iyi kararlar almasına yardımcı olmaktır.
+
+> **“Egemenlik kayıtsız şartsız milletindir.”**
+
+**Mustafa Kemal Atatürk**
+
+### EN · BETTER DECISIONS. BETTER FUTURE.
 
 Komite exists to help people, institutions and societies make better decisions with better information.
 
-“Egemenlik kayıtsız şartsız milletindir.”
+> **“Sovereignty unconditionally belongs to the nation.”**
 
-Mustafa Kemal Atatürk
+**Mustafa Kemal Atatürk**
 
-“Sovereignty unconditionally belongs to the nation.”
+---
 
-Barbaros Hayrettin Bal · Bağımsız Geliştirici / Independent Developer · barbaroshbal@gmail.com · LinkedIn :https://www.linkedin.com/in/barbarosb/
+**Barbaros Hayrettin Bal**  
+Bağımsız Geliştirici · Independent Developer  
+[barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barbarosb/)
 
-## Teknik Belgeler / Technical Documents
+---
 
-Bu belgeler sunumdaki hedefleri teknik ayrıntı ve sınırlarla tamamlar. Dünya nüfusu ölçeği uzun vadeli bir araştırma hedefidir. Kamu/devlet seçimleri dahil hiçbir seçim, referandum veya bağlayıcı karar üretimi kapsamda değildir. Kurulum komutu yoktur; güvenlik açıklarını herkese açık iş kayıtlarına yazmayın.
+## Teknik Belgeler
 
-These documents add technical detail and boundaries to the deck’s objectives. Global population scale is a long-term research target. All elections, including public/state elections, referendums and binding decisions are out of scope. There is no installation command; do not report security vulnerabilities in public issues.
+Bu belgeler sunumdaki hedefleri teknik ayrıntı ve sınırlarla tamamlar.
+
+Dünya nüfusu ölçeği uzun vadeli bir araştırma hedefidir.
+
+Kamu/devlet seçimleri dahil hiçbir seçim, referandum veya bağlayıcı karar üretimi kapsamda değildir.
+
+Kurulum komutu yoktur.
+
+Güvenlik açıklarını herkese açık iş kayıtlarına yazmayın.
+
+### EN · Technical Documents
+
+These documents add technical detail and boundaries to the deck’s objectives.
+
+Global population scale is a long-term research target.
+
+All elections, including public/state elections, referendums and binding decisions are out of scope.
+
+There is no installation command.
+
+Do not report security vulnerabilities in public issues.
+
+### Belgeler / Documents
 
 - [Scope / Kapsam](SCOPE.md)
 - [Research / Araştırma](RESEARCH.md)
