@@ -2,8 +2,8 @@
 
 [PDF / Project Deck](docs/Komite-Open-Project-Deck-v0.1.pdf)
 
-> Bu yayın araştırma ve tasarım belgeleridir; çalışan uygulama, kurulabilir paket veya üretime hazır hizmet değildir. Aşağıdaki ifadeler hedefleri anlatır, kanıtlanmış özellikleri değil.<br>
-><br>
+> Bu yayın araştırma ve tasarım belgeleridir; çalışan uygulama, kurulabilir paket veya üretime hazır hizmet değildir. Aşağıdaki ifadeler hedefleri anlatır, kanıtlanmış özellikleri değil.
+>
 > This release contains research and design documents, not a working application, installable package or production-ready service. The statements below describe objectives, not proven capabilities.
 
 Daha iyi kararlar. Daha iyi gelecek.
