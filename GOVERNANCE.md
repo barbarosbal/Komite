@@ -26,7 +26,7 @@ Bu metin GitHub branch protection (dal koruması), zorunlu incelemeci veya CI (s
 
 ## Kayıt ve yetki ayrımı
 
-Depodaki belgeler projenin kamuya açık tasarım/kapsam referansıdır; şirketin Notion’daki güncel karar kaydının yerine geçmez. GitHub kod ve inceleme kanıtlarını, Linear yürütme işlerini, Founder Brain/Obsidian tarihsel muhakemeyi taşır. Kamusal PR’a yalnız yayımlanması uygun bağlam taşınır. İç kayıtlar arasındaki çelişki gizlice yeniden yorumlanmaz; yetkili karar sahibine sunulur.
+Depodaki belgeler projenin kamuya açık tasarım/kapsam referansıdır. GitHub değişiklik ve inceleme kanıtlarını taşır; özel şirket karar kayıtlarının yerine geçmez. Kamusal PR’a yalnız yayımlanması uygun bağlam taşınır. İnceleme için gerekli gerekçe özel sistem erişimine bağımlı bırakılmaz. Yetki veya kayıtlar arasında çelişki varsa sessizce yeniden yorumlanmaz; proje sahibine sunulur.
 
 ## English summary
 

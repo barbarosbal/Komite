@@ -16,6 +16,19 @@ Bu kontrol listesi bir tamamlanma beyanı değildir. Her yayın için gerçek so
 - [ ] Açık belge bulgusu yok; gereken insan onayları var; varsa otomatik kontroller başarılı. Otomatik kontrol yoksa açıkça belirtildi.
 - [ ] Birleştirme öncesi hedef dalın değişmediği ve beklenen PR başı doğrulandı; değiştiyse inceleme yenilendi.
 
+### Yerel tekrar kontrolü
+
+Hedef dalın son durumunu alın ve aşağıdaki salt-okunur kontrolleri depo kökünde çalıştırın. Dal ilerlediyse farkı yeniden inceleyin:
+
+```sh
+git diff --check origin/main...HEAD
+git diff --name-status origin/main...HEAD
+git diff origin/main...HEAD -- LICENSE
+git hash-object LICENSE
+```
+
+Bu temelin LICENSE nesnesi `261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64` değerindedir. Lisans farkı boş kalmalıdır. README belge tablosundaki dosyaları ve tüm göreli bağlantıları tek tek açın; ad yazımını, İngilizce özetleri ve tüm farkın anlamını kontrol edin. Bu komutlar anlamsal/güvenlik incelemesinin yerine geçmez; uzak bağlantılarda oturum gereksinimini erişim hatasından ayırın. Sonuçları incelenen sürümle birlikte PR’a yazın.
+
 ## B — Sentetik uygulamaya geçmeden önce
 
 Amaç/kabul ölçütleri, mevcut iş/PR taraması, mimari inceleme, izole dal, veri ve aktör sınırı, bağımlılık değerlendirmesi, test planı ve ortam sözleşmesi hazırlanır. Şema değişikliği varsa migration (veri tabanı değişikliği) çakışma rezervasyonu; kimlik/yetki varsa aktör-yetki matrisi gerekir. Gerçek veri veya gizli anahtar kullanılmaz. İlgili yürütme kaydı ve kanıt bağlantısı belirlenir.
@@ -25,7 +38,7 @@ Amaç/kabul ölçütleri, mevcut iş/PR taraması, mimari inceleme, izole dal, v
 - Gerekçeli ifşa eşiği ve tamamlayıcı/tekrarlı yayın politikası; anlama ve katılım verisi dahil saldırı testleri.
 - Uygunluk, tekrar önleme, iptal/kurtarma, istemci, işletmeci işbirliği ve ağ gözlemci varsayımları.
 - Veri envanteri, erişim, saklama/silme, yedek, anahtar ve olay müdahale politikaları.
-- Gönüllülük, erişilebilirlik, baskı riski, etik ve uygulanabilir veri koruma yükümlülüklerinin yetkin incelemesi.
+- Gönüllülük, erişilebilirlik, baskı riski, etik ve uygulanabilir veri koruma yükümlülüklerinin yetkin incelemesi; gönderim sonrası geri çekme/düzeltme sınırlarının açıklanması.
 - Uygulamaya özgü testler, bağımlılık incelemesi, bağımsız güvenlik değerlendirmesi ve kritik/yüksek bulguların yetkili insan tarafından kapatılması.
 - Doğrulanmış dağıtım ortamı, çalışan sürümün kaynak kaydıyla eşleşmesi, izleme, geri alma ve durdurma denemeleri.
 - Dal koruması ve gereken kalite kontrollerinin gerçekten etkin olduğuna dair kanıt; sır/yetki ayarları için ayrı yetki.

@@ -12,7 +12,7 @@ Depo araştırma ve tasarım aşamasındadır. Desteklenen üretim sürümü, ç
 
 İlk mesajda yalnız hassas olmayan kısa açıklama, etkilenen belge/sürüm, olası etki ve güvenli biçimde iletişim kurulabilecek adres yer alsın. Gerçek kimlik, tercih, erişim anahtarı, token (belirteç) veya sömürülebilir ayrıntı göndermeyin. E-postanın uçtan uca şifreli olduğu varsayılmamalıdır; ayrıntıların güvenli aktarım yöntemi ayrıca kararlaştırılır. Yayınlanmış şifreleme anahtarı veya kesintisiz güvenlik ekibi vaat edilmez.
 
-Yanıt için hedef beş iş günüdür; bu bir hizmet seviyesi veya garanti değildir. Yanıt gelmezse aynı adrese hassas veri eklemeden hatırlatma gönderilebilir. LinkedIn özel güvenlik kanıtı aktarım kanalı değildir.
+Şu anda taahhüt edilmiş bir yanıt süresi veya hizmet seviyesi yoktur. Yanıt gelmezse aynı adrese hassas veri eklemeden hatırlatma gönderilebilir. LinkedIn özel güvenlik kanıtı aktarım kanalı değildir.
 
 ## Değerlendirme ve açıklama
 

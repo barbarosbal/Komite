@@ -23,6 +23,10 @@ Durum: araştırma tasarımı; çalışan davranış veya seçilmiş protokol de
 7. Güvenli bulunursa yalnız izin verilen toplu sinyal ve sınırları açıklanır. Karar sahibi sistem dışında nihai kararı ve gerekçesini verir.
 8. Sonuçlar ve süreç kalitesi sonradan incelenir; bireylerin tercihi geriye dönük profillenmez.
 
+## Geri çekme ve düzeltme sınırı
+
+Gönderim öncesinde katılımdan vazgeçilebilir. Gönderim sonrasında belirli bir tercihi bulup silme veya değiştirme ile kimlik-tercih bağlantısızlığı arasında tasarım gerilimi vardır. Bu akış henüz seçilmedi; anonim gönderimin sonradan kişi adına geri alınabileceği vaat edilmez. Gerçek kullanım öncesinde düzeltme, geri çekme, saklama ve silme sınırları katılımcıya açıkça anlatılmalı; uygulanabilir veri koruma gereklilikleriyle birlikte incelenmelidir. Bu açıklama ve inceleme tamamlanmadan pilot başlatılmaz.
+
 ## Understanding Gate: anlama ile yönlendirme arasındaki sınır
 
 **Framing (çerçeveleme)** ve **priming (önceden yönlendirme)**, “doğru cevap” üzerinden tercih telkinine dönüşebilir. Kontrol soruları görüş onayı arayamaz. Kaynak seçimi, kelime tonu, seçenek sırası ve karşı görüşün eksikliği de değerlendirilir.
@@ -50,4 +54,4 @@ Uygunluk ihlali, manipüle içerik, bütünlük belirsizliği veya güvenli ifş
 
 ## English summary
 
-The Understanding Gate must not remove participation rights or reweight preferences. It can frame or prime responses and needs independent content scrutiny. Aggregate preferences remain advisory; abstention and non-response are different. Small-group, complementary and repeated-release disclosure checks apply to every output, including understanding metrics. Without an approved disclosure policy, no results are released.
+The Understanding Gate must not remove participation rights or reweight preferences. It can frame or prime responses and needs independent content scrutiny. Aggregate preferences remain advisory; abstention and non-response are different. Small-group, complementary and repeated-release disclosure checks apply to every output, including understanding metrics. Without an approved disclosure policy, no results are released. Post-submission withdrawal/correction is unresolved and must not be promised; its limits require disclosure and review before any pilot.

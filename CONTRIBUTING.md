@@ -29,7 +29,7 @@ Kod katkıları için test ve kalite kapıları o uygulamanın ortamına göre t
 
 ## Kayıtların yeri
 
-GitHub katkı farkları, PR görüşmeleri ve mühendislik kanıtlarını taşır. İç yürütme planı Linear’da, şirket düzeyindeki güncel kararlar Notion’da, iç araştırma muhakemesi Founder Brain/Obsidian’da tutulur. Katkıcının bu özel sistemlere erişmesi gerekmez; kamuya gerekli ve güvenli bağlam PR’da sağlanır. Özel kayıtlar ve ham konuşmalar depoya kopyalanmaz, aynı iş için mükerrer takip kaydı açılmaz.
+GitHub katkı farkları, PR görüşmeleri ve mühendislik kanıtlarını taşır. Katkıcının özel şirket sistemlerine erişmesi gerekmez; inceleme için gereken kamuya açık ve güvenli bağlam PR’da sağlanır. Özel karar kayıtları, araştırma notları ve ham konuşmalar depoya kopyalanmaz. İç yürütme takibi varsa aynı iş için mükerrer kayıt açmak yerine proje sahibiyle ilişkilendirilir.
 
 ## English summary
 
