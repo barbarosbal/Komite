@@ -4,7 +4,9 @@
 
 Komite, karar sahibinin farklı bilgi, deneyim ve bakış açılarını daha güvenli biçimde görebilmesine yardımcı olmayı amaçlayan açık bir araştırma ve karar destek projesidir.
 
-**Görüş istemek onay istemek değildir.** Amaç çoğunluğu takip etmek değil; kararın göremediği yönleri fark etmek, farklı perspektifleri karşılaştırmak ve belirsizliği görünür kılmaktır.
+Hiç kimse gerçeğin tamamını tek başına göremez. Her insan farklı bir bilgiye, deneyime ve bakış açısına sahiptir. Bu yüzden önemli kararlar, farklı perspektiflerle düşünülmeyi hak eder.
+
+**Görüş istemek onay istemek değildir.** Komite çoğunluğu takip etmek için kurulmamıştır. Amaç, kararın göremediği yönleri fark etmek, farklı görüşleri karşılaştırmak, belirsizliği görünür kılmak ve karar sahibinin görüş alanını genişletmektir.
 
 Komite bir seçim sistemi değildir. Yönetici seçmez, temsilci seçmez, referandum yürütmez ve bağlayıcı karar üretmez.
 
@@ -16,7 +18,9 @@ Komite bir seçim sistemi değildir. Yönetici seçmez, temsilci seçmez, refera
 
 Komite is an open research and decision-support project that aims to help decision-makers see different knowledge, experience, and perspectives more safely.
 
-**Asking for another view is not asking for approval.** The goal is not to follow the majority, but to notice what a decision may be missing, compare different perspectives, and make uncertainty visible.
+No one sees the whole truth alone. People carry different knowledge, experience, and perspectives. Important decisions therefore deserve to be considered from more than one point of view.
+
+**Asking for another view is not asking for approval.** Komite is not built to follow the majority. Its purpose is to help reveal what a decision may be missing, compare different perspectives, make uncertainty visible, and widen the decision-maker's field of view.
 
 Komite is not an election system. It does not elect leaders or representatives, conduct referendums, or produce binding decisions.
 
@@ -24,173 +28,245 @@ Komite is not an election system. It does not elect leaders or representatives, 
 > **Komite does not make the decision.**  
 > **Komite helps people see more clearly.**
 
-[Açık Problemler / Open Problems](ACIK-PROBLEMLER.md) · [Kapsam / Scope](KAPSAM.md) · [Katkı Rehberi / Contributing](KATKI.md) · [Güvenlik / Security](GUVENLIK.md)
-
-> **PDF durumu:** Canonical `Komite — Manifesto v0.1` ve `Komite — Open Project Deck v0.1` PDF dosyaları daha sonra eklenecek. Depodaki eski sunum arşiv niteliğindedir ve güncel kaynak değildir.
-
-> **PDF status:** The canonical `Komite — Manifesto v0.1` and `Komite — Open Project Deck v0.1` PDFs will be added later. Any older deck in the repository is archival and is not the current source.
+[Açık Problemler / Open Problems](ACIK-PROBLEMLER.md) · [Kapsam / Scope](KAPSAM.md) · [Araştırma / Research](ARASTIRMA.md) · [Katkı / Contributing](KATKI.md) · [Güvenlik / Security](GUVENLIK.md)
 
 ---
 
 ## Neyi çözmeye çalışıyoruz?
 
-Hiç kimse gerçeğin tamamını tek başına göremez. Her insan farklı bilgiye, deneyime ve bakış açısına sahiptir. Aynı zamanda hiyerarşi, sosyal baskı, otorite, kariyer riski, grup dinamikleri ve kişisel korkular insanların ifade ettiği sinyali değiştirebilir veya zayıflatabilir.
+Karar veren kişinin kötü niyetli olması gerekmez. Sorun bazen çok daha basittir: **elindeki görüş alanı eksik olabilir.**
 
-Bu durumda karar veren kişinin kötü niyetli olması gerekmez. **Elindeki görüş alanı eksik olabilir.**
+Hiyerarşi, sosyal baskı, otorite, kariyer riski, grup dinamikleri, kişisel korkular ve örnekleme hataları bazı görüşleri zayıflatabilir, değiştirebilir veya tamamen görünmez hâle getirebilir. Aynı zamanda karar sahibinin kendisi de sahip olmadığı bilgi ve deneyimi göremez.
 
 Komite'nin kök problemi şudur:
 
 > **Farklı insanların bilgi, deneyim ve görüşlerini güvenli biçimde görünür kılarak karar sahibinin daha geniş bir bakış açısıyla karar vermesine nasıl yardımcı olabiliriz?**
 
-Bu etki kanıtlanmış bir ürün özelliği değildir. Daha dürüst, daha nitelikli veya daha faydalı sinyal üretip üretmediği ayrı araştırma problemidir.
+Bu, “kalabalık her zaman haklıdır” iddiası değildir. Farklı bir görüş yanlış olabilir; yine de yeni bir soru, karşı örnek, risk veya kör nokta gösterebilir.
 
 ### EN · What are we trying to solve?
 
-No one sees the whole truth alone. People carry different knowledge, experience, and perspectives. At the same time, hierarchy, social pressure, authority, career risk, group dynamics, and personal fears can distort or suppress the signals people express.
+A decision-maker does not need to have bad intentions. The problem can be simpler: **their field of view may be incomplete.**
 
-The decision-maker does not need to have bad intentions. **Their field of view may simply be incomplete.**
+Hierarchy, social pressure, authority, career risk, group dynamics, personal fears, and sampling errors can distort, weaken, or suppress some views. At the same time, a decision-maker cannot see knowledge and experience they do not possess.
 
 Komite's root problem is:
 
 > **How can we make different people's knowledge, experience, and views visible more safely so that a decision-maker can decide with a wider field of view?**
 
-This effect is not a proven product capability. Whether Komite produces a more honest, higher-quality, or more useful signal remains a separate research problem.
+This is not a claim that crowds are always right. A different view may be wrong and still reveal a new question, counterexample, risk, or blind spot.
 
 ---
 
-## İddiaları nasıl okuyoruz?
+## Nasıl çalışmasını araştırıyoruz?
 
-- **İlke:** Projenin koruduğu düşünsel veya etik yön; teknik başarı iddiası değildir.
-- **Hedef:** Ulaşılmak istenen özellik; mevcut garanti değildir.
-- **Hipotez:** Deney ve karşı örnekle sınanması gereken açıklama veya etki beklentisi.
-- **Açık problem:** Kapanma ölçütleri ve gereken kanıt tamamlanmamış soru.
-- **Kanıtlanmış bulgu:** Yöntemi, kapsamı, sürümü ve sınırları kaydedilmiş, bağımsızca incelenebilir sonuç.
+Komite'nin temel yaklaşımı bir **karar döngüsüdür**:
 
-Anonimlik, uygunluk doğrulaması, insan tekilliği, kimlik-tercih bağlantısızlığı, güvenli küçük-grup yayını ve daha iyi sinyal üretimi bugün **hedef veya açık problem** durumundadır; kanıtlanmış ürün özelliği değildir.
+**Problem → Bağlam → Görüşler → Toplu sinyal → Karar → Eylem → Sonuç → Öğrenme ↻**
 
-### EN · How should claims be read?
+Araştırılan akışta:
 
-- **Principle:** The intellectual or ethical direction the project protects; not a claim of technical success.
-- **Target:** A property the project seeks; not a current guarantee.
-- **Hypothesis:** An explanation or expected effect that must be tested through experiments and counterexamples.
-- **Open problem:** A question whose closure criteria and required evidence are incomplete.
-- **Proven finding:** A result with a recorded method, scope, version, and limitations that can be independently examined.
+1. Problem, karar sahibi, kapsam ve seçenekler açıkça tanımlanır.
+2. Katılımcıların konuyu anlayabilmesi için isteğe bağlı bir **anlama kontrolü** tasarlanır. Bu kontrol görüş doğruluk sınavı değildir; yanlış cevap katılım hakkını veya görüş ağırlığını değiştirmez.
+3. Katılımcılar bağlayıcı olmayan tercih veya önceden tanımlı alternatif tavsiye bildirir. İlk araştırma modelinde serbest metin yoktur.
+4. Bireysel görüşleri koruyacak güvenli bir yayın politikası varsa yalnız toplu sinyal açıklanır.
+5. Nihai karar **karar sahibine aittir**. Toplu sonuçtan farklı karar verebilir; Komite bu yetkiyi devralmaz.
+6. Kararın sonucu daha sonra ölçülür ve öğrenilenler yeni karar döngüsüne geri beslenir.
 
-Anonymity, eligibility verification, human uniqueness, identity-preference unlinkability, safe small-group disclosure, and improved signal quality remain **targets or open problems**, not proven product capabilities.
+Anonimlik, kimlik-tercih bağlantısızlığı, tekil katılım, küçük grup güvenliği ve doğrulanabilirlik bu akışın **araştırma hedefleridir; mevcut garantiler değildir.** Ayrıntı için [Karar Modeli](docs/KARAR-MODELI.md) ve [Tehdit Modeli](docs/TEHDIT-MODELI.md).
 
----
+### EN · How are we researching the process?
 
-## Komite bir problem ağıdır
+Komite's core approach is a **decision loop**:
 
-Komite tamamlanacak bir özellik listesi değil, birbirine bağlı açık problemler ağı olarak geliştirilir. Büyük problemler daha küçük problemlere ayrılır; bağımlılıklar görünür tutulur; insanlar uzmanlıklarına en yakın probleme katkı verebilir.
+**Problem → Context → Perspectives → Aggregate signal → Decision → Action → Outcome → Learning ↻**
 
-Bir problem üzerinde çalışılmış olması onun çözüldüğü anlamına gelmez.
+In the researched flow:
 
-> **Bir problem, önceden tanımlanmış kapanma ölçütleri sağlandığında çözülmüş kabul edilir.**
+1. The problem, decision owner, scope, and options are stated clearly.
+2. An optional **understanding check** may help participants understand the context. It is not a test of whether their opinion is correct; a wrong answer does not remove participation rights or change preference weight.
+3. Participants submit a non-binding preference or a predefined alternative recommendation. The initial research model does not include free text.
+4. Only an aggregate signal is released when a safe disclosure policy permits it.
+5. The final decision belongs to the **decision owner**. They may decide differently from the aggregate signal; Komite does not take over that authority.
+6. Outcomes are later examined and what is learned feeds the next decision cycle.
 
-“Çözüldü” kalıcı hakikat anlamına gelmez. Yeni kanıt, yeni saldırı veya daha iyi açıklama geldiğinde problem yeniden açılabilir.
-
-### EN · Komite is a problem network
-
-Komite is developed not as a feature checklist, but as a network of connected open problems. Large problems are divided into smaller ones, dependencies remain visible, and contributors can work on the problem closest to their expertise.
-
-Work being done on a problem does not mean it is solved.
-
-> **A problem is considered solved only when its predefined closure criteria are satisfied.**
-
-“Solved” does not mean permanently true. New evidence, a new attack, or a better explanation can reopen a problem.
+Anonymity, identity-preference unlinkability, unique participation, small-group safety, and verifiability are **research targets, not current guarantees.** See [Decision Model](docs/KARAR-MODELI.md) and [Threat Model](docs/TEHDIT-MODELI.md).
 
 ---
 
 ## Üç ana problem alanı
 
-### Mahremiyet
+### 1. Mahremiyet
 *İnsanların düşüncelerini açığa çıkarmadan nasıl birlikte düşünebiliriz?*
 
-Kimlik, bağlantısızlık, üstveri, küçük grup ifşası, katılım bilgisi ve hata davranışı birlikte incelenir.
+Kimlik, uygunluk, bağlantısızlık, üstveri ve zamanlama, küçük grup ifşası, katılım bilgisi, tekrar yayınlar ve hata davranışı birlikte incelenir.
 
-### EN · Privacy
+### EN · 1. Privacy
 *How can people think together without exposing individual views?*
 
-Identity, unlinkability, metadata, small-group disclosure, participation information, and error behavior must be examined together.
+Identity, eligibility, unlinkability, metadata and timing, small-group disclosure, participation information, repeated releases, and error behavior must be examined together.
 
-### Karar
+### 2. Karar
 *İnsanların görüşleri daha iyi bir karara nasıl yardımcı olur?*
 
-Bilgi, uzmanlık, çoğunluk, azınlık, belirsizlik ve sorumluluk birlikte değerlendirilir. Başka bir görüş kararın yerine geçmez; karar sahibinin görüş alanını genişletir.
+Bilgi, uzmanlık, çoğunluk, azınlık, belirsizlik, temsil ve sorumluluk birlikte değerlendirilir. Başka bir görüş kararın yerine geçmez; karar sahibinin görüş alanını genişletir.
 
-### EN · Decision
+### EN · 2. Decision
 *How can people's perspectives support a better decision?*
 
-Information, expertise, majority, minority, uncertainty, and responsibility are considered together. Another view does not replace the decision; it widens the decision-maker's field of view.
+Information, expertise, majority, minority, uncertainty, representation, and responsibility are considered together. Another view does not replace the decision; it widens the decision-maker's field of view.
 
-### Öğrenme
+### 3. Öğrenme
 *Bir kararın iyi veya kötü olduğunu nasıl öğreniriz?*
 
-Beklenti, karar, sonuç, değerlendirme ve davranış değişikliği aynı döngünün parçalarıdır.
+Beklenti, karar, eylem, sonuç, ölçüm ve davranış değişikliği aynı döngünün parçalarıdır. Yanlış kararın görülmesi başarısızlığı saklamak için değil, bir sonraki kararı iyileştirmek için kullanılmalıdır.
 
-### EN · Learning
+### EN · 3. Learning
 *How do we learn whether a decision was good or bad?*
 
-Expectation, decision, outcome, reflection, and changed behavior are parts of the same loop.
+Expectation, decision, action, outcome, measurement, and changed behavior are parts of the same loop. Discovering that a decision was wrong should improve the next decision, not be hidden as a failure.
+
+---
+
+## Komite bir problem ağıdır
+
+Komite tamamlanacak düz bir özellik listesi olarak değil, birbirine bağlı **açık problemler ağı** olarak geliştirilir.
+
+Büyük problemler daha küçük problemlere ayrılır. Bağımlılıklar görünür tutulur. İnsanlar bütün projeyi bilmek zorunda kalmadan uzmanlıklarına en yakın probleme katkı verebilir.
+
+> **Bir problem, üzerinde çalışıldığı için değil; önceden tanımlanmış kapanma ölçütleri sağlandığında çözülmüş kabul edilir.**
+
+“Çözüldü” kalıcı hakikat anlamına gelmez. Yeni kanıt, yeni saldırı veya daha iyi açıklama geldiğinde problem yeniden açılabilir.
+
+[Açık Problem Ağı'nı incele →](ACIK-PROBLEMLER.md)
+
+### EN · Komite is a problem network
+
+Komite is developed not as a flat feature checklist, but as a **network of connected open problems**.
+
+Large problems are divided into smaller ones. Dependencies remain visible. Contributors can work on the problem closest to their expertise without understanding the entire project.
+
+> **A problem is considered solved not because work was done on it, but because its predefined closure criteria are satisfied.**
+
+“Solved” does not mean permanently true. New evidence, a new attack, or a better explanation can reopen a problem.
+
+[Explore the Open Problem Network →](ACIK-PROBLEMLER.md)
 
 ---
 
 ## Sınırlarımız
+
+Komite'nin güvenilir olabilmesi için neyi yapamadığını da açıkça söylemesi gerekir.
 
 - Çok sayıda görüş tek başına doğru cevap üretmez.
 - Çoğunluk hakikat veya ahlaki meşruiyet değildir.
 - Anonimlik insanların doğruyu söyleyeceğini garanti etmez.
 - Katılım uzmanlığın yerine geçmez.
 - Bir insanın verdiği cevap o insanın tamamı değildir.
+- Örneklem, davet edilen grubun dışındaki toplumu otomatik olarak temsil etmez.
 - Her şey ölçülemez; ölçülemeyen şey ölçülmüş gibi gösterilmemelidir.
 - En iyi karar bile yanlış çıkabilir.
 
-Bu yüzden karar sonuçla bitmez:
-
-**Sinyal → Karar → Eylem → Sonuç → Öğrenme ↻**
+Bu nedenle Komite **karar destek** sistemidir; karar otoritesi değildir.
 
 ### EN · Our limits
+
+For Komite to be trustworthy, it must state clearly what it cannot do.
 
 - Many opinions do not automatically produce a correct answer.
 - A majority is not truth or moral legitimacy.
 - Anonymity does not guarantee honesty.
 - Participation does not replace expertise.
 - A person's response is not the whole person.
+- A sample does not automatically represent people outside the invited group.
 - Not everything can be measured, and the unmeasurable should not be presented as measured.
 - Even the best decision can turn out to be wrong.
 
-That is why a decision does not end with the result:
+Komite is therefore a **decision-support** system, not a decision authority.
 
-**Signal → Decision → Action → Outcome → Learning ↻**
+---
+
+## İddiaları nasıl okuyoruz?
+
+| Durum | Anlamı |
+| --- | --- |
+| **İlke** | Projenin koruduğu düşünsel veya etik yön; teknik başarı iddiası değildir. |
+| **Hedef** | Ulaşılmak istenen özellik; mevcut garanti değildir. |
+| **Hipotez** | Deney ve karşı örneklerle sınanması gereken açıklama veya etki beklentisi. |
+| **Açık problem** | Kapanma ölçütleri ve gereken kanıt tamamlanmamış soru. |
+| **Kanıtlanmış bulgu** | Yöntemi, kapsamı, sürümü ve sınırları kaydedilmiş, bağımsızca incelenebilir sonuç. |
+
+Anonimlik, uygunluk doğrulaması, insan tekilliği, kimlik-tercih bağlantısızlığı, güvenli küçük-grup yayını, doğrulanabilirlik ve daha iyi karar sinyali üretimi bugün **hedef veya açık problem** durumundadır; kanıtlanmış ürün özellikleri değildir.
+
+### EN · How should claims be read?
+
+| Status | Meaning |
+| --- | --- |
+| **Principle** | The intellectual or ethical direction the project protects; not a claim of technical success. |
+| **Target** | A property the project seeks; not a current guarantee. |
+| **Hypothesis** | An explanation or expected effect that must be tested through experiments and counterexamples. |
+| **Open problem** | A question whose closure criteria and required evidence are incomplete. |
+| **Proven finding** | A result with a recorded method, scope, version, and limitations that can be independently examined. |
+
+Anonymity, eligibility verification, human uniqueness, identity-preference unlinkability, safe small-group disclosure, verifiability, and improved decision signals remain **targets or open problems**, not proven product capabilities.
+
+---
+
+## Araştırma ve teknik belgeler
+
+- [Kapsam / Scope](KAPSAM.md)
+- [Açık Problemler / Open Problems](ACIK-PROBLEMLER.md)
+- [Araştırma / Research](ARASTIRMA.md)
+- [Karar Modeli / Decision Model](docs/KARAR-MODELI.md)
+- [Tehdit Modeli / Threat Model](docs/TEHDIT-MODELI.md)
+- [Mimari Yönler / Architecture Directions](docs/MIMARI-YONLER.md)
+- [Yol Haritası / Roadmap](YOL-HARITASI.md)
+- [Yönetişim / Governance](YONETISIM.md)
+- [Yayın Kontrol Listesi / Release Gates](docs/YAYIN-KONTROL-LISTESI.md)
+
+**PDF durumu:** Canonical `Komite — Manifesto v0.1` ve `Komite — Open Project Deck v0.1` PDF dosyaları daha sonra eklenecek. Depodaki eski sunum yalnız tarihsel arşivdir ve güncel kaynak değildir.
+
+### EN · Research and technical documents
+
+The documents above define the current public research, scope, decision model, threat model, architecture directions, roadmap, governance, and release gates.
+
+**PDF status:** The canonical `Komite — Manifesto v0.1` and `Komite — Open Project Deck v0.1` PDFs will be added later. The older deck in the repository is historical archive material only and is not the current source.
 
 ---
 
 ## Nasıl katkı verilir?
 
-Bütün projeyi bilmek gerekmez. [Açık Problemler](ACIK-PROBLEMLER.md) arasından bildiğin, merak ettiğin veya kırabileceğini düşündüğün bir problemi seçebilirsin. Bir çözüm, öneren kişinin unvanıyla değil; gerekçesi, kanıtı ve karşı eleştiriye dayanıklılığıyla değerlendirilir.
+Bütün projeyi bilmek gerekmez. [Açık Problemler](ACIK-PROBLEMLER.md) arasından bildiğin, merak ettiğin veya kırabileceğini düşündüğün bir problemi seçebilirsin.
 
-Katkı akışı için [Katkı Rehberi](KATKI.md), güvenlik veya hassas mahremiyet bulguları için [Güvenlik Politikası](GUVENLIK.md) kullanılmalıdır.
+Bir çözüm, öneren kişinin unvanıyla değil; **gerekçesi, kanıtı, sınırlarını ne kadar açık söylediği ve karşı eleştiriye ne kadar dayanabildiğiyle** değerlendirilir.
+
+Katkı akışı için [Katkı Rehberi](KATKI.md), hassas güvenlik veya mahremiyet bulguları için [Güvenlik Politikası](GUVENLIK.md) kullanılmalıdır.
 
 ### EN · How to contribute
 
-You do not need to understand the entire project. Choose a problem from [Open Problems](ACIK-PROBLEMLER.md) that you understand, find interesting, or think you can break. A proposed solution is evaluated by its reasoning, evidence, and ability to withstand criticism, not by the title of the person proposing it.
+You do not need to understand the entire project. Choose a problem from [Open Problems](ACIK-PROBLEMLER.md) that you understand, find interesting, or think you can break.
 
-Use [Contributing](KATKI.md) for the contribution flow and [Security](GUVENLIK.md) for security or sensitive privacy findings.
+A proposed solution is evaluated by its **reasoning, evidence, stated limits, and ability to withstand criticism**, not by the title of the person proposing it.
+
+Use [Contributing](KATKI.md) for the contribution flow and [Security](GUVENLIK.md) for sensitive security or privacy findings.
 
 ---
 
 ## Proje durumu
 
-Bu depo araştırma, tasarım ve geliştirme belgeleri içerir. Komite üretime hazır bir hizmet değildir. Güvenlik, anonimlik, ölçek, insan tekilliği, doğrulanabilirlik veya karar kalitesinde iyileşme hedefleri kanıtlanmış özellikler olarak sunulmaz.
+Komite şu anda **araştırma, tasarım ve erken geliştirme** aşamasındadır. Üretime hazır bir hizmet değildir.
 
-Yanlış kararlar ve sonradan yapılan düzeltmeler projenin öğrenme kaydının parçasıdır. Hata saklanmaz; gerekçesiyle düzeltilir ve geçmiş korunur.
+Güvenlik, anonimlik, ölçek, insan tekilliği, doğrulanabilirlik veya karar kalitesinde iyileşme hedefleri kanıtlanmış özellikler olarak sunulmaz.
+
+Yanlış kararlar ve sonradan yapılan düzeltmeler projenin öğrenme kaydının parçasıdır. **Hata saklanmaz; gerekçesiyle düzeltilir ve geçmiş korunur.**
 
 ### EN · Project status
 
-This repository contains research, design, and development documents. Komite is not a production-ready service. Security, anonymity, scale, human uniqueness, verifiability, or improved decision quality are not presented as proven capabilities.
+Komite is currently in **research, design, and early development**. It is not a production-ready service.
 
-Wrong decisions and later corrections are part of the project's learning record. Errors are not erased; they are corrected with reasons while history is preserved.
+Security, anonymity, scale, human uniqueness, verifiability, or improved decision quality are not presented as proven capabilities.
+
+Wrong decisions and later corrections are part of the project's learning record. **Errors are not erased; they are corrected with reasons while history is preserved.**
 
 ---
 
