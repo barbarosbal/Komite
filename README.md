@@ -224,13 +224,18 @@ Anonymity, eligibility verification, human uniqueness, identity-preference unlin
 - [Yönetişim / Governance](YONETISIM.md)
 - [Yayın Kontrol Listesi / Release Gates](docs/YAYIN-KONTROL-LISTESI.md)
 
-**PDF durumu:** Canonical `Komite — Manifesto v0.1` ve `Komite — Open Project Deck v0.1` PDF dosyaları daha sonra eklenecek. Depodaki eski sunum yalnız tarihsel arşivdir ve güncel kaynak değildir.
+### Belgeler / Documents
+
+- [Komite — Manifesto v0.1 (PDF)](docs/Komite-Manifesto-v0.1.pdf)
+- [Komite — Open Project Deck v0.1 (PDF)](docs/Komite-Open-Project-Deck-v0.1.pdf)
+
+Depodaki `Komite-Open-Project-Deck-v0.1-ESKI.pdf` yalnız tarihsel arşivdir ve güncel kaynak değildir.
 
 ### EN · Research and technical documents
 
 The documents above define the current public research, scope, decision model, threat model, architecture directions, roadmap, governance, and release gates.
 
-**PDF status:** The canonical `Komite — Manifesto v0.1` and `Komite — Open Project Deck v0.1` PDFs will be added later. The older deck in the repository is historical archive material only and is not the current source.
+The canonical Manifesto v0.1 and Open Project Deck v0.1 PDFs are linked above. The older deck remains historical archive material and is not the current source.
 
 ---
 
