@@ -1,164 +1,170 @@
 # Komite — Açık Problem Ağı
 
-Komite tek bir özellik listesi değil, kök problemi çözmek için parçalanmış açık problemler ağı olarak geliştirilir.
+Komite tek bir özellik listesi değil, birbirine bağlı açık problemler ağı olarak geliştirilir.
 
-> Kök problem: İnsanların gerçek düşüncelerini daha güvenli biçimde ortaya çıkararak daha iyi kararlar alınmasına nasıl yardımcı olabiliriz?
+> **Kök problem:** Farklı insanların bilgi, deneyim ve görüşlerini güvenli biçimde görünür kılarak karar sahibinin daha geniş bir bakış açısıyla karar vermesine nasıl yardımcı olabiliriz?
 
-Her problem bağımsız olarak incelenebilir, başka problemlere bağlı olabilir, yeni alt problemler doğurabilir ve gerektiğinde yeniden açılabilir. Bir problemin kapanması "hakikat bulundu" anlamına gelmez; tanımlı kabul ölçütleri altında yeterli bir çözüm elde edildiği anlamına gelir.
+Amaç insanların “gerçek iç düşüncesini” bildiğimizi iddia etmek değildir. İfade edilen sinyalin baskı, hiyerarşi, çerçeveleme ve diğer etkilerden nasıl etkilendiğini anlamak; farklı perspektifleri görünür kılmak ve karar sahibinin kör noktalarını azaltmaya çalışmaktır.
+
+### EN · Root problem
+
+Komite is developed as a network of connected open problems rather than a feature checklist.
+
+> **Root problem:** How can we make different people's knowledge, experience, and views visible more safely so that a decision-maker can decide with a wider field of view?
+
+The goal is not to claim access to a person's “true inner thought.” The project studies how expressed signals are affected by pressure, hierarchy, framing, and other forces, while trying to make different perspectives visible and reduce decision blind spots.
+
+---
 
 ## Çalışma ilkeleri
 
-1. Her problem kaydı çözülecek bir problemi temsil eder. Kod, araştırma, manifesto, yönetişim, mahremiyet, istatistik, tasarım ve dokümantasyon problemleri aynı modelde yer alabilir.
+1. Her kayıt çözülecek bir problemi temsil eder.
 2. Büyük problemler daha küçük alt problemlere ayrılır.
-3. Bir problem başka bir problem çözülmeden ilerleyemiyorsa engelleyici ilişki açıkça kaydedilir.
+3. Engelleyici ilişkiler açıkça kaydedilir.
 4. Yeni kanıt mevcut çözümü zayıflatıyorsa kapanmış problem yeniden açılabilir.
-5. Kişinin itibarı çözümü doğrulamaz. Gerekçe, kanıt, karşı örnek ve incelemeye dayanıklılık değerlendirilir.
-6. Çözülmemiş veya güvenle açıklanamayan alanlar saklanmaz; proje sınırı olarak görünür tutulur.
+5. Kişinin itibarı çözümü doğrulamaz; gerekçe, kanıt, karşı örnek ve incelemeye dayanıklılık değerlendirilir.
+6. Çözülmemiş veya güvenle açıklanamayan alanlar saklanmaz.
+7. Görüş istemek onay istemek değildir; amaç çoğunluğu takip etmek değil, daha fazla bakış açısı görmektir.
+
+### EN · Working principles
+
+1. Each record represents a problem to solve.
+2. Large problems are divided into smaller subproblems.
+3. Blocking relationships are recorded explicitly.
+4. New evidence can reopen a closed problem.
+5. Reputation does not validate a solution; reasoning, evidence, counterexamples, and review resilience matter.
+6. Unresolved or unsafe-to-disclose areas remain visible.
+7. Asking for another view is not asking for approval; the goal is not to follow the majority but to see more perspectives.
+
+---
 
 ## Problem yaşam döngüsü
 
 **Ön İnceleme → Açık Problem → Üstlenildi → Araştırılıyor / Çalışılıyor → İncelemede → Çözüldü**
 
-Gerektiğinde:
+Gerektiğinde: **Engelli · Reddedildi · Yinelenen**
 
-**Engelli · Reddedildi · Yinelenen**
+Bir problem çalışma yapıldığı için değil, önceden tanımlanmış kapanma ölçütleri sağlandığı için kapanır.
 
-- **Ön İnceleme:** Yeni problem önerisi değerlendiriliyor.
-- **Açık Problem:** Geçerli ve kapsam içi problem; henüz aktif çalışması yok.
-- **Üstlenildi:** Bir katkıcı problemi üstlenmiş.
-- **Araştırılıyor / Çalışılıyor:** Araştırma, tasarım veya uygulama çalışması sürüyor.
-- **Engelli:** Başka problem veya kanıt çözülmeden ilerleyemiyor.
-- **İncelemede:** Bir çözüm önerilmiş; karşı örnek ve bağımsız inceleme bekleniyor.
-- **Çözüldü:** Önceden tanımlanmış kapanma ölçütleri sağlanmış.
-- **Reddedildi:** Problem veya öneri kapsam dışı ya da geçersiz bulunmuş.
-- **Yinelenen:** Aynı problem başka bir kayıt altında zaten izleniyor.
+> **Çözüldü ≠ sonsuz doğruluk.**
 
-## Bir problem kaydı ne zaman açılır?
+### EN · Problem lifecycle
 
-Aşağıdakilerden en az biri doğruysa yeni problem kaydı açılması değerlendirilir:
+**Pre-review → Open Problem → Claimed → Researching / Working → In Review → Solved**
 
-- Kök problemi çözmemizi engelleyen yeni bir bilinmez ortaya çıktı.
-- Mevcut çözümün önemli bir varsayımı sorgulanıyor.
-- Yeni güvenlik, mahremiyet, insan, bilim, tasarım veya uygulama riski keşfedildi.
-- Başka bir problemin çözülebilmesi için önce çözülmesi gereken alt problem oluştu.
+When needed: **Blocked · Rejected · Duplicate**
 
-Aynı problem zaten varsa yeni kayıt yerine mevcut kayda kanıt, karşı örnek veya bağlantı eklenir.
+A problem closes because predefined closure criteria are satisfied, not because work was performed.
 
-## Problem şablonu
+> **Solved ≠ eternally true.**
+
+---
+
+## Problem kaydı şablonu
 
 Her problem mümkün olduğunca şu alanları içerir:
 
-### Problem
-Tam olarak neyi bilmiyoruz, ne çalışmıyor veya hangi iddia savunulamıyor?
+- Problem
+- Kök problemle ilişkisi
+- Mevcut bilgi
+- Varsayımlar
+- Engelleyiciler
+- Bağlı problemler
+- Beklenen çıktı
+- Karşı örnek / kırma testi
+- Sınırlar
+- Kapanma ölçütü
 
-### Kök problemle ilişkisi
-Bu problem Komite'nin ana amacını neden etkiliyor?
+### EN · Problem record template
 
-### Mevcut bilgi
-Şu ana kadar ne biliyoruz?
+Each developed problem should include, where applicable:
 
-### Varsayımlar
-Neyi geçici olarak doğru kabul ediyoruz?
+- Problem
+- Relationship to the root problem
+- Current knowledge
+- Assumptions
+- Blockers
+- Related problems
+- Expected output
+- Counterexample / break test
+- Limits
+- Closure criteria
 
-### Engelleyiciler
-Önce hangi problemlerin çözülmesi gerekiyor?
-
-### Bağlı problemler
-Bu problem hangi diğer problemlere bağlı veya onları etkiliyor?
-
-### Beklenen çıktı
-Araştırma, matematiksel model, prototip, deney, metin, test, politika veya başka hangi çıktı bekleniyor?
-
-### Karşı örnek / kırma testi
-Önerilen çözüm nasıl yanlışlanabilir veya hangi senaryoda başarısız olur?
-
-### Sınırlar
-Bu çözüm neyi çözmez?
-
-### Kapanma ölçütü
-Hangi somut koşullar oluşursa problem çözüldü kabul edilir?
-
-## Kapanma sözleşmesi
-
-Bir problem çalışma yapıldığı için değil, önceden yazılmış kapanma ölçütleri sağlandığı için kapanır.
-
-Asgari beklenti:
-
-- problem ve kapsam açık,
-- varsayımlar görünür,
-- ilgili kanıtlar kaydedilmiş,
-- kritik karşı örnekler değerlendirilmiş,
-- bilinen engelleyiciler çözülmüş veya açıkça kapsam dışı bırakılmış,
-- çözümün sınırları yazılmış,
-- gerekli inceleme tamamlanmış,
-- yeni doğan problemler ayrı kayıt olarak açılmış veya bağlanmış.
-
-**Çözüldü ≠ sonsuz doğruluk.** Yeni kanıt geldiğinde problem yeniden açılabilir.
-
-## Katılım modeli
-
-Komite katkıları konu uzmanlığına göre parçalanabilir. Bir katkıcı bütün projeyi anlamak zorunda değildir; ilgilendiği problem ve onun engelleyicileri için gerekli bağlamı anlaması yeterlidir.
-
-Kamusal katkı ile proje içi yetki aynı şey değildir. Gelecekte kamusal problem gezgini ve anonim katkı yüzeyi ayrı tasarlanabilir; GitHub ve Linear doğrulanmış çalışma ve inceleme kayıtlarını taşır.
+---
 
 ## İlk problem kümeleri
-
-Bu üç küme açık problem alanlarıdır. Aşağıdaki maddeler tam problem kayıtları veya çözüm beyanları değil, ilk iskelettir; her biri çalışılmadan önce bu belgedeki problem şablonuyla ayrıntılandırılmalıdır.
 
 ### Mahremiyet
 *İnsanların düşüncelerini açığa çıkarmadan nasıl birlikte düşünebiliriz?*
 
-İlk alt problemler:
-
-- **Kimlik** — Bir insanın kim olduğunu bilmeden katılmaya hakkı olduğunu nasıl doğrularız?
-- **Bağ** — Bir görüşün kime ait olduğu sonradan bulunabilir mi?
-- **İz** — Zaman, cihaz veya bağlantı bilgileri bir insanı ele verebilir mi?
+- **Kimlik** — Katılmaya hakkı olanı görüşünü öğrenmeden nasıl doğrularız?
+- **Bağ** — Bir görüş sonradan kişiye bağlanabilir mi?
+- **İz** — Zaman, cihaz, ağ veya log bilgileri kişiyi ele verebilir mi?
 - **Ölçü** — Bir sonucu ne kadar ayrıntıyla açıklamak güvenlidir?
-- **Karşılaştırma** — Farklı sonuçlar bir araya getirilerek bir insanın görüşü bulunabilir mi?
-- **Sessizlik** — Bir şeyi açıklamamak bile bilgi verebilir mi?
-- **Katılım** — Bir insanın katılıp katılmadığı başlı başına hassas bilgi olabilir mi?
-- **Hata** — Bir hata veya iptal mesajı istemeden bilgi açığa çıkarabilir mi?
+- **Karşılaştırma** — Farklı sonuçlar birleştirilerek bireysel görüş çıkarılabilir mi?
+- **Sessizlik** — Açıklanmayan şeyin açıklanmamış olması bilgi verir mi?
+- **Katılım** — Katılmış olmak başlı başına hassas bilgi midir?
+- **Hata** — Hata veya iptal davranışı istemeden bilgi açığa çıkarır mı?
 
-Özellikle temel ilke:
+### EN · Privacy
+*How can people think together without exposing individual views?*
 
-> Sakladığın şeyin saklanmış olması bile bilgi olabilir.
-
-Bu nedenle yalnız yayımlanan sonuç değil, sonuç açıklamama davranışı da mahremiyet modelinin parçasıdır.
+- **Identity** — How do we verify eligibility without learning the person's view?
+- **Link** — Can a view later be linked back to a person?
+- **Trace** — Can timing, device, network, or logging data reveal the person?
+- **Measure** — How much result detail is safe to disclose?
+- **Comparison** — Can several outputs be combined to infer an individual view?
+- **Silence** — Can non-disclosure itself reveal information?
+- **Participation** — Is participation itself sensitive information?
+- **Error** — Can errors or cancellation behavior leak information?
 
 ### Karar
 *İnsanların görüşleri daha iyi bir karara nasıl yardımcı olur?*
 
-İlk alt problemler:
-
 - **Bilgi** — Karar vermeden önce neyi bilmek gerekir?
-- **Uzmanlık** — Uzman bilgisi ile insanların deneyimleri nasıl birlikte değerlendirilir?
-- **Çoğunluk** — Çoğunluğun görüşü ne zaman yol gösterir, ne zaman yetmez?
-- **Azınlık** — Az sayıda insanın önemli bir görüşü nasıl kaybolmaz?
+- **Uzmanlık** — Uzman bilgisi ile insanların deneyimi nasıl birlikte değerlendirilir?
+- **Perspektif** — Başka bir görüş kararın göremediği hangi yönleri ortaya çıkarabilir?
+- **Çoğunluk** — Çoğunluk ne zaman yol gösterir, ne zaman yetmez?
+- **Azınlık** — Önemli ama azınlıkta kalan görüş nasıl kaybolmaz?
 - **Belirsizlik** — Yeterince bilmediğimizi nasıl fark ederiz?
-- **Sorumluluk** — Nihai karar kime aittir ve sinyalden farklı kararın gerekçesi nasıl görünür kalır?
+- **Sorumluluk** — Nihai karar kime aittir ve gerekçesi nasıl görünür kalır?
 
-Bu kümenin süreç sınırları [Karar Modeli](docs/KARAR-MODELI.md) içindedir. Hiçbir alt problem için kapanma kanıtı henüz kaydedilmemiştir.
+### EN · Decision
+*How can people's perspectives support a better decision?*
+
+- **Information** — What should be known before deciding?
+- **Expertise** — How should expert knowledge and lived experience be considered together?
+- **Perspective** — What can another view reveal that the decision-maker may be missing?
+- **Majority** — When is a majority informative, and when is it insufficient?
+- **Minority** — How do we keep an important minority view from disappearing?
+- **Uncertainty** — How do we notice that we do not know enough?
+- **Responsibility** — Who owns the final decision and how does its reasoning remain visible?
 
 ### Öğrenme
 *Bir kararın iyi veya kötü olduğunu nasıl öğreniriz?*
 
-İlk alt problemler:
-
 - **Beklenti** — Karardan önce ne olacağını düşündüğümüzü nasıl kaydederiz?
 - **Sonuç** — Gerçekte ne olduğunu nasıl ölçeriz?
-- **Fark** — Beklediğimiz ile gerçekleşen arasındaki fark bize ne anlatır?
+- **Fark** — Beklenti ile gerçekleşen arasındaki fark bize ne anlatır?
 - **Yanılgı** — Nerede yanlış düşündüğümüzü nasıl fark ederiz?
 - **Değişim** — Öğrendiğimiz şey bir sonraki kararı nasıl değiştirir?
 
-Ölçümün kendisi yanlı veya eksik olabilir; korelasyon kararın sonucu yarattığını kanıtlamaz. Bu kümede de kapanmış problem kaydı yoktur.
+### EN · Learning
+*How do we learn whether a decision was good or bad?*
 
-## İnsan diliyle bağımlılık ve problem haritası
+- **Expectation** — How do we record what we believed would happen before the decision?
+- **Outcome** — How do we measure what actually happened?
+- **Difference** — What does the gap between expectation and outcome tell us?
+- **Error** — How do we notice where our reasoning was wrong?
+- **Change** — How should what we learn change the next decision?
 
-Bu harita bir çözüm sırası önerir; kutuların varlığı çözüldükleri anlamına gelmez. Parantez içindeki T kodları yalnız [tehdit modeline](docs/TEHDIT-MODELI.md) geri izleme içindir.
+---
+
+## Bağımlılık haritası
 
 ```text
-Kimin katılabileceğini adil tanımla
-  -> aynı kişinin tekrar katılımını sınırla
+Uygunluğu adil tanımla
+  -> tekrar katılımı sınırla
   -> kimlik/uygunluk bilgisini tercihten ayır
        -> cihaz, ağ, zaman ve işletmeci izlerini sınırla
        -> küçük grup ve tekrar yayın ifşasını sınırla
@@ -167,7 +173,7 @@ Kimin katılabileceğini adil tanımla
 Soruyu ve anlama içeriğini tarafsızlaştır
   -> örneklem ve yanıt vermeme etkisini açıkla
   -> sinyalin neyi temsil ettiğini sınırla
-       -> sinyalin daha dürüst/nitelikli olup olmadığını ayrı test et
+       -> ikinci görüşün/perspektif çeşitliliğinin karar faydasını ayrı test et
             -> karar sahibinin nasıl kullandığını ve sonucu nasıl öğreneceğimizi değerlendir
 
 Bütünlük ve hata davranışını doğrula
@@ -175,27 +181,31 @@ Bütünlük ve hata davranışını doğrula
   -> mahremiyeti bozmadan yeniden hesaplanabilir kanıt üret
 ```
 
-### Kapanmayı engelleyen ilişkiler
+### EN · Dependency map
 
-- **Kimlik-tercih bağlantısızlığı**, uygunluk/verme ile tercih alımının birlikte hareket eden işletmeciler, üstveri, istemci ve yedekler karşısında incelenmesi tamamlanmadan kapanamaz (T03, T04, T06, T10, T12).
-- **Güvenli toplu sonuç**, küçük grup, tamamlayıcı toplam, anlama verisi, katılım sayısı ve ardışık yayınların birleşik ifşa politikası olmadan kapanamaz (T02).
-- **Temsil ve karar faydası**, davet/örneklem yanlılığı ile yanıt vermeme etkisi açıklanmadan kapanamaz (T08); çoğunluk tek başına temsil kanıtı değildir.
-- **Tekil katılım**, davet devri, yeniden verme, iptal/kurtarma ve eşzamanlı kullanım testleri olmadan kapanamaz (T07).
-- **Sonuç bütünlüğü**, silme, sahte bildirim, yeniden oynatma, çift sayım ve geç yanıt testleri olmadan kapanamaz (T09).
-- **Daha dürüst veya daha nitelikli sinyal**, ölçüleri önceden tanımlanmış ayrı araştırma ve alternatif açıklamaların değerlendirilmesi olmadan kapanamaz. Bu problem kriptografi problemlerinin altına gömülemez.
+The same dependency map applies in English conceptually: eligibility → one-participation controls → unlinkability → metadata/disclosure safety → publishable aggregate signal; framing/sampling → signal meaning → test the value of additional perspectives → decision use and learning; integrity → distinguish invalid/duplicate/late signals → produce verifiable evidence without breaking privacy.
 
-### Bağımsız inceleme engeli
+---
 
-Öz-denetim çalışma kalitesini artırabilir; bağımsız inceleme değildir. Aşağıdaki liste örnekleyicidir, tüketici değildir. [Tehdit modelindeki](docs/TEHDIT-MODELI.md) T01-T12 kayıtlarının tümü gerçek kullanım iddiasına dayanak olmadan önce ilgili alanda yetkin ve değişikliği üretmemiş insan incelemesi gerektirir. Aşağıdaki problemler bu gereksinimin özellikle görünür örnekleridir ve bu inceleme olmadan **İncelemede** durumundan **Çözüldü** durumuna geçemez:
+## Kapanmayı engelleyen ilişkiler
 
-- anlama içeriğinin çerçeveleme/yönlendirme riski (T01),
-- küçük grup ve birleşik ifşa politikası (T02),
-- işletmeci ayrılığı ve birlikte hareket etme varsayımları (T04),
-- seçilecek kriptografik protokol ve uygulama iddiaları,
-- gerçek katılımcılı pilot için güvenlik, mahremiyet, etik ve veri koruma sınırları.
+- Kimlik-tercih bağlantısızlığı, üstveri, istemci, işletmeci işbirliği ve yedekler incelenmeden kapanamaz.
+- Güvenli toplu sonuç, küçük grup ve ardışık yayın ifşası incelenmeden kapanamaz.
+- Temsil ve karar faydası, örneklem/yanıt vermeme etkisi açıklanmadan kapanamaz.
+- Tekil katılım, davet devri, yeniden verme, iptal/kurtarma ve eşzamanlı kullanım testleri olmadan kapanamaz.
+- Sonuç bütünlüğü, silme, sahte bildirim, yeniden oynatma, çift sayım ve geç yanıt testleri olmadan kapanamaz.
+- Daha iyi sinyal veya daha iyi karar iddiası, ölçüleri önceden tanımlanmış ayrı araştırma olmadan kapanamaz.
 
-Bağımsız inceleme kapasitesi yoksa bunlar ve aynı güvenlik, mahremiyet, bütünlük, temsiliyet veya gerçek-kullanım iddiasını taşıyan diğer kayıtlar açık kalır; belge yayını veya proje sahibinin öz-denetimi kapanma kanıtı sayılmaz. Bir kaydın yukarıdaki kısa örnek listede bulunmaması bağımsız incelemeden muafiyet yaratmaz.
+### EN · Blocking relationships
 
-## English summary
+Unlinkability, safe aggregate disclosure, representativeness, unique participation, result integrity, and claims of improved signal or decision quality each remain open until their explicit dependencies and evidence requirements are satisfied.
 
-Komite is developed as an open problem network rather than a flat feature backlog. Privacy, Decision, and Learning are initial open-problem clusters; their listed items are scaffolds, not closed problem records. Each developed problem needs explicit assumptions, dependencies, evidence, review requirements, limits, and closure criteria. All T01-T12 threats require relevant independent human review before supporting real-use claims; the shorter examples above are not exemptions. A solved problem means the defined criteria are currently satisfied, not that permanent truth has been established.
+---
+
+## Katılım modeli
+
+GitHub kamuya açık problem, katkı ve inceleme kayıtlarını taşır. Public katkı için özel şirket sistemlerine erişim gerekmez. Gelecekte farklı katkı yüzeyleri tasarlanabilir; bunlar GitHub’daki açık kayıt modelinin yerine geçmek zorunda değildir.
+
+### EN · Participation model
+
+GitHub carries public problem, contribution, and review records. Access to private company systems is not required for public contribution. Future contribution surfaces may be designed without replacing the repository's open record model.
