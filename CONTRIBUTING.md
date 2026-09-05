@@ -2,9 +2,24 @@
 
 Araştırma, karşı örnek, yöntem eleştirisi, tehdit analizi, erişilebilirlik ve belge katkıları beklenir. Türkçe ana dildir; kritik kapsam ve güvenlik değişikliklerinin İngilizce özeti de güncellenir. Proje adı her dilde **Komite** yazılır.
 
+Komite düz bir özellik listesi olarak değil, birbirine blocker ilişkileriyle bağlı **açık problemler ağı** olarak geliştirilir. Yeni katkıya başlamadan önce [Açık Problem Ağı](OPEN-PROBLEMS.md) belgesini okuyun. Bir katkıcı bütün projeyi üstlenmek zorunda değildir; uzmanlığına en yakın problemi ve onu engelleyen alt problemleri çözmeye odaklanabilir.
+
 ## Başlamadan önce
 
-[Kapsamı](SCOPE.md), [karar modelini](docs/DECISION-MODEL.md), [güvenlik politikasını](SECURITY.md) ve ilgili mevcut PR’ları okuyun. Aynı çalışmanın veya kararın zaten bulunup bulunmadığını kontrol edin. Güvenlik açığı ayrıntılarını kamusal kanala koymayın.
+[Kapsamı](SCOPE.md), [Açık Problem Ağı'nı](OPEN-PROBLEMS.md), [karar modelini](docs/DECISION-MODEL.md), [güvenlik politikasını](SECURITY.md) ve ilgili mevcut PR’ları okuyun. Aynı çalışmanın veya kararın zaten bulunup bulunmadığını kontrol edin. Güvenlik açığı ayrıntılarını kamusal kanala koymayın.
+
+## Yeni problem önermek
+
+Yeni bir issue, yalnızca yapılacak işi değil çözülecek problemi tanımlamalıdır. Mümkün olduğunda `.github/ISSUE_TEMPLATE/open-problem.md` şablonunu kullanın.
+
+Yeni issue açılması özellikle şu durumlarda uygundur:
+
+- kök problemi çözmemizi engelleyen yeni bir bilinmez ortaya çıktığında,
+- mevcut çözümün önemli bir varsayımı sorgulandığında,
+- yeni güvenlik, mahremiyet, insan, bilim, tasarım veya uygulama riski keşfedildiğinde,
+- başka bir issue'nun çözülmesi için önce çözülmesi gereken yeni bir alt problem bulunduğunda.
+
+Aynı problem zaten varsa mükerrer issue açmak yerine mevcut issue'ya kanıt, karşı örnek veya bağlantı ekleyin. Bir issue çalışma yapıldığı için değil, önceden tanımlanan kapanma kriterleri sağlandığında kapanır; yeni kanıt gelirse yeniden açılabilir.
 
 ## Katkı akışı
 
@@ -33,4 +48,4 @@ GitHub katkı farkları, PR görüşmeleri ve mühendislik kanıtlarını taşı
 
 ## English summary
 
-Use a branch and a focused PR, never direct writes to main. Keep Turkish primary and critical English summaries consistent. Disclose AI assistance, cite evidence, protect private data and preserve Apache-2.0. Self-review is not independent human review. No private company-tool access is required to contribute.
+Komite is developed as an open problem network. Start with `OPEN-PROBLEMS.md`, choose a problem close to your expertise, follow its blockers, and use the open-problem issue template for new problem proposals. Use a branch and a focused PR, never direct writes to main. Keep Turkish primary and critical English summaries consistent. Disclose AI assistance, cite evidence, protect private data and preserve Apache-2.0. Self-review is not independent human review. No private company-tool access is required to contribute.
