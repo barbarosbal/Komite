@@ -4,7 +4,7 @@
 
 ## Daha iyi kararlar. Daha iyi gelecek.
 
-Komite, karar sahibinin farklı bilgi, deneyim ve bakış açılarını daha güvenli biçimde görebilmesine yardımcı olmayı amaçlayan açık bir araştırma ve karar destek projesidir.
+Komite, insanların, kurumların ve toplumların daha iyi karar vermesine yardımcı olmayı amaçlayan bir karar destek araştırmasıdır; açık bir problem ağı olarak yürütülür.
 
 Hiç kimse gerçeğin tamamını tek başına göremez. Her insan farklı bir bilgiye, deneyime ve bakış açısına sahiptir. Bu yüzden önemli kararlar, farklı perspektiflerle düşünülmeyi hak eder.
 
@@ -18,7 +18,7 @@ Komite bir seçim sistemi değildir. Yönetici seçmez, temsilci seçmez, refera
 
 ### EN · Better decisions. Better future.
 
-Komite is an open research and decision-support project that aims to help decision-makers see different knowledge, experience, and perspectives more safely.
+Komite is decision-support research that aims to help people, institutions and societies make better decisions; it is conducted as an open problem network.
 
 No one sees the whole truth alone. People carry different knowledge, experience, and perspectives. Important decisions therefore deserve to be considered from more than one point of view.
 
@@ -96,7 +96,7 @@ Anonymity, identity-preference unlinkability, unique participation, small-group 
 
 ---
 
-## Üç ana problem alanı
+## Üç ana düğüm / Three connected nodes
 
 ### 1. Mahremiyet
 *İnsanların düşüncelerini açığa çıkarmadan nasıl birlikte düşünebiliriz?*
@@ -231,13 +231,13 @@ Anonymity, eligibility verification, human uniqueness, identity-preference unlin
 - [Komite — Manifesto v0.1 (PDF)](docs/Komite-Manifesto.pdf)
 - [Komite — Open Project Deck v0.1 (PDF)](docs/Komite-Open-Project-Deck-v0.1.pdf)
 
-Depodaki `Komite-Open-Project-Deck-v0.1-ESKI.pdf` yalnız tarihsel arşivdir ve güncel kaynak değildir.
+Yukarıdaki iki PDF güncel kanonik belgelerdir.
 
 ### EN · Research and technical documents
 
 The documents above define the current public research, scope, decision model, threat model, architecture directions, roadmap, governance, and release gates.
 
-The canonical Manifesto v0.1 and Open Project Deck v0.1 PDFs are linked above. The older deck remains historical archive material and is not the current source.
+The canonical Manifesto v0.1 and Open Project Deck v0.1 PDFs are linked above.
 
 ---
 
