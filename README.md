@@ -1,4 +1,4 @@
-https://github.com/barbarosbal/Komite/blob/main/docs/Komite-Manifesto-v0.1.pdf
+- [Komite — Manifesto v0.1 (PDF)](docs/Komite-Manifesto.pdf)
 
 # Komite
 
