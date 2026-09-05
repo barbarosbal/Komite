@@ -1,3 +1,5 @@
+https://github.com/barbarosbal/Komite/blob/main/docs/Komite-Manifesto-v0.1.pdf
+
 # Komite
 
 ## Daha iyi kararlar. Daha iyi gelecek.
