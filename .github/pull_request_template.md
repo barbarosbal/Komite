@@ -8,7 +8,7 @@ Kaynaklar, kontrol edilen sürüm, yapılan test/kontroller ve sınırlamalar:
 
 ## İnceleme
 
-BLOCKER / HIGH / MEDIUM / LOW bulguları, düzeltme kaydı ve açık kalanlar:
+Engelleyici / Yüksek / Orta / Düşük bulguları, düzeltme kaydı ve açık kalanlar:
 
 İncelemeyi kimin yaptığı ve bağımsız olup olmadığı; AI yardımı kullanıldıysa kapsamı:
 

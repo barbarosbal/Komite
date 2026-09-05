@@ -2,17 +2,19 @@
 
 ## Desteklenen durum
 
-Depo araştırma ve tasarım aşamasındadır. Desteklenen üretim sürümü, çalışan hizmet, doğrulanmış anonimlik veya güvenlik garantisi yoktur. Belgeler gerçek katılımcı verisiyle kullanıma izin veren bir sertifika değildir. Araştırma hedefleri için [tehdit modeli](docs/THREAT-MODEL.md) ve [yayın kapıları](docs/RELEASE-CHECKLIST.md) geçerlidir.
+Depo araştırma ve tasarım aşamasındadır. Desteklenen üretim sürümü, çalışan hizmet, doğrulanmış anonimlik veya güvenlik garantisi yoktur. Belgeler gerçek katılımcı verisiyle kullanıma izin veren bir sertifika değildir. Araştırma hedefleri için [tehdit modeli](docs/TEHDIT-MODELI.md) ve [yayın kapıları](docs/YAYIN-KONTROL-LISTESI.md) geçerlidir.
 
 ## Özel bildirim
 
-Şüpheli güvenlik açığını, ifşa riskini veya yanlış güvenlik iddiasını **herkese açık issue (iş kaydı) veya pull request (değişiklik önerisi)** üzerinden yayımlamayın.
+Şüpheli güvenlik açığını, ifşa riskini veya yanlış güvenlik iddiasını **herkese açık iş kaydı veya değişiklik önerisi** üzerinden yayımlamayın.
 
 İlk temas: [barbaroshbal@gmail.com](mailto:barbaroshbal@gmail.com). Konu önerisi: `Komite security report`.
 
 İlk mesajda yalnız hassas olmayan kısa açıklama, etkilenen belge/sürüm, olası etki ve güvenli biçimde iletişim kurulabilecek adres yer alsın. Gerçek kimlik, tercih, erişim anahtarı, token (belirteç) veya sömürülebilir ayrıntı göndermeyin. E-postanın uçtan uca şifreli olduğu varsayılmamalıdır; ayrıntıların güvenli aktarım yöntemi ayrıca kararlaştırılır. Yayınlanmış şifreleme anahtarı veya kesintisiz güvenlik ekibi vaat edilmez.
 
 Şu anda taahhüt edilmiş bir yanıt süresi veya hizmet seviyesi yoktur. Yanıt gelmezse aynı adrese hassas veri eklemeden hatırlatma gönderilebilir. LinkedIn özel güvenlik kanıtı aktarım kanalı değildir.
+
+Bu yol, yayımlanması hâlinde kişiyi veya sistemi riske atabilecek güvenlik/mahremiyet bulguları içindir. Yazım hatası, kırık bağlantı, kanıtsız ama sömürü ayrıntısı içermeyen kamusal iddia veya belge tutarsızlığı [Katkı Rehberi](KATKI.md) üzerinden kamusal değişiklik önerisiyle düzeltilebilir. Emin olunamıyorsa önce yalnız hassas olmayan özetle özel kanal kullanılır. Özel bildirim almak, bulgunun kabul edildiği veya kamusal kaydın sonsuza kadar saklanacağı anlamına gelmez; güvenli düzeltme ve açıklama sınırı [Yönetişim](YONETISIM.md) ile belirlenir.
 
 ## Değerlendirme ve açıklama
 
@@ -25,10 +27,10 @@ Depo araştırma ve tasarım aşamasındadır. Desteklenen üretim sürümü, ç
 
 | Seviye | Anlam | Yayın davranışı |
 | --- | --- | --- |
-| BLOCKER (engelleyici) | Kapsam ihlali, gizli veri ifşası, kanıtsız üretim/anonimlik garantisi gibi yayını doğrudan durduran sorun | Çözülmeden birleştirme yok |
-| HIGH (yüksek) | Mahremiyeti, bütünlüğü veya katılımcı güvenliğini ciddi etkileyen açık/eksik güven sınırı | Düzeltme ve gereken insan onayı olmadan birleştirme yok |
-| MEDIUM (orta) | Yanlış uygulamaya/yoruma yol açabilecek önemli belirsizlik veya eksik süreç | Bu temel yayınında düzeltilmeden birleştirme yok |
-| LOW (düşük) | Anlamı temelden değiştirmeyen bağlantı, ifade veya sunum kusuru | Bu temel yayınında düzeltilmeden birleştirme yok |
+| Engelleyici | Kapsam ihlali, gizli veri ifşası, kanıtsız üretim/anonimlik garantisi gibi yayını doğrudan durduran sorun | Çözülmeden birleştirme yok |
+| Yüksek | Mahremiyeti, bütünlüğü veya katılımcı güvenliğini ciddi etkileyen açık/eksik güven sınırı | Düzeltme ve gereken insan onayı olmadan birleştirme yok |
+| Orta | Yanlış uygulamaya/yoruma yol açabilecek önemli belirsizlik veya eksik süreç | Bu temel yayınında düzeltilmeden birleştirme yok |
+| Düşük | Anlamı temelden değiştirmeyen bağlantı, ifade veya sunum kusuru | Bu temel yayınında düzeltilmeden birleştirme yok |
 
 Tasarımın açık araştırma tehditleri ile bu belgelerdeki yayın kusurları ayrı kayıtlardır. Bir belgenin temiz olması, tarif ettiği sistem risklerinin çözüldüğü anlamına gelmez.
 

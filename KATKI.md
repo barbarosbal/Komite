@@ -2,24 +2,24 @@
 
 Araştırma, karşı örnek, yöntem eleştirisi, tehdit analizi, erişilebilirlik ve belge katkıları beklenir. Türkçe ana dildir; kritik kapsam ve güvenlik değişikliklerinin İngilizce özeti de güncellenir. Proje adı her dilde **Komite** yazılır.
 
-Komite düz bir özellik listesi olarak değil, birbirine blocker ilişkileriyle bağlı **açık problemler ağı** olarak geliştirilir. Yeni katkıya başlamadan önce [Açık Problem Ağı](ACIK-PROBLEMLER.md) belgesini okuyun. Bir katkıcı bütün projeyi üstlenmek zorunda değildir; uzmanlığına en yakın problemi ve onu engelleyen alt problemleri çözmeye odaklanabilir.
+Komite düz bir özellik listesi olarak değil, birbirine engelleyici ilişkilerle bağlı **açık problemler ağı** olarak geliştirilir. Yeni katkıya başlamadan önce [Açık Problem Ağı](ACIK-PROBLEMLER.md) belgesini okuyun. Bir katkıcı bütün projeyi üstlenmek zorunda değildir; uzmanlığına en yakın problemi ve onu engelleyen alt problemleri çözmeye odaklanabilir.
 
 ## Başlamadan önce
 
-[Kapsamı](KAPSAM.md), [Açık Problem Ağı'nı](ACIK-PROBLEMLER.md), [karar modelini](docs/DECISION-MODEL.md), [güvenlik politikasını](GUVENLIK.md) ve ilgili mevcut PR’ları okuyun. Aynı çalışmanın veya kararın zaten bulunup bulunmadığını kontrol edin. Güvenlik açığı ayrıntılarını kamusal kanala koymayın.
+[Kapsamı](KAPSAM.md), [Açık Problem Ağı'nı](ACIK-PROBLEMLER.md), [karar modelini](docs/KARAR-MODELI.md), [güvenlik politikasını](GUVENLIK.md) ve ilgili mevcut PR’ları okuyun. Aynı çalışmanın veya kararın zaten bulunup bulunmadığını kontrol edin. Güvenlik açığı ayrıntılarını kamusal kanala koymayın.
 
 ## Yeni problem önermek
 
-Yeni bir issue, yalnızca yapılacak işi değil çözülecek problemi tanımlamalıdır. Mümkün olduğunda `.github/ISSUE_TEMPLATE/open-problem.md` şablonunu kullanın.
+Yeni bir problem kaydı, yalnızca yapılacak işi değil çözülecek problemi tanımlamalıdır. Mümkün olduğunda `.github/ISSUE_TEMPLATE/open-problem.md` şablonunu kullanın.
 
-Yeni issue açılması özellikle şu durumlarda uygundur:
+Yeni problem kaydı açılması özellikle şu durumlarda uygundur:
 
 - kök problemi çözmemizi engelleyen yeni bir bilinmez ortaya çıktığında,
 - mevcut çözümün önemli bir varsayımı sorgulandığında,
 - yeni güvenlik, mahremiyet, insan, bilim, tasarım veya uygulama riski keşfedildiğinde,
-- başka bir issue'nun çözülmesi için önce çözülmesi gereken yeni bir alt problem bulunduğunda.
+- başka bir problem kaydının çözülmesi için önce çözülmesi gereken yeni bir alt problem bulunduğunda.
 
-Aynı problem zaten varsa mükerrer issue açmak yerine mevcut issue'ya kanıt, karşı örnek veya bağlantı ekleyin. Bir issue çalışma yapıldığı için değil, önceden tanımlanan kapanma kriterleri sağlandığında kapanır; yeni kanıt gelirse yeniden açılabilir.
+Aynı problem zaten varsa yinelenen kayıt açmak yerine mevcut kayda kanıt, karşı örnek veya bağlantı ekleyin. Bir problem kaydı çalışma yapıldığı için değil, önceden tanımlanan kapanma ölçütleri sağlandığında kapanır; yeni kanıt gelirse yeniden açılabilir.
 
 ## Katkı akışı
 
@@ -31,7 +31,7 @@ Aynı problem zaten varsa mükerrer issue açmak yerine mevcut issue'ya kanıt, 
 
 ## Uygulama katkısından önce
 
-Şu an uygulama kodu veya test altyapısı yoktur. Gelecekte kod yazmadan önce mevcut mimari, ilgili iş kaydı/önceki PR, mükerrer iş riski, kabul ölçütleri, kapsam dışı alanlar, veri/aktör sınırları ve test planı hazırlanmalıdır. Mimari seçimi, gerçek veri, kimlik doğrulama veya dağıtım kararları belge yayını yetkisinden türetilemez. Yeni bağımlılığın lisansı, bakımı ve güvenlik durumu ayrıca değerlendirilir.
+Şu an uygulama kodu veya test altyapısı yoktur. Sentetik uygulama hazırlığının ayrıntılı ve güncel koşulları [Yayın Kontrol Listesi — Gate B](docs/YAYIN-KONTROL-LISTESI.md#b--komite-sentetik-deneyine-geçmeden-önce) içindedir. Gelecekte kod yazmadan önce mevcut mimari, ilgili iş kaydı/önceki PR ve mükerrer iş riski de kontrol edilmelidir. Mimari seçimi, gerçek veri, kimlik doğrulama veya dağıtım kararları belge yayını yetkisinden türetilemez. Yeni bağımlılığın lisansı, bakımı ve güvenlik durumu ayrıca değerlendirilir.
 
 Kod katkıları için test ve kalite kapıları o uygulamanın ortamına göre tanımlanmadan “testler geçti” denemez. Mevcut depo için çalıştırılabilir ürün komutu uydurmayın.
 

@@ -6,14 +6,14 @@ Amaç, çözüldüğü varsayılan iddiaları çoğaltmak değil, açık sorular
 
 Aşağıdaki kaynaklar 2026-09-03 tarihinde başlangıç taraması için incelendi. Kapsamlı veya güncel güvenlik durumunu tüketen bir literatür taraması değildir. Protokol seçimi öncesi güncel analizler, düzeltmeler ve uygulama denetimleri ayrıca kontrol edilmelidir.
 
-| Ref | Kaynak | Bu araştırmaya katkısı / sınırı |
+| Kaynak | İz | Bu araştırmaya katkısı / sınırı |
 | --- | --- | --- |
-| R1 | Denis, Jacobs, Wood, [RFC 9474: RSA Blind Signatures](https://www.rfc-editor.org/rfc/rfc9474.html), 2023 | Kör imza protokolü ve güvenlik hususları; bilgilendirici CFRG yayınıdır, Komite sistem güvenliği veya insan tekilliği kanıtı değildir |
-| R2 | Sonnino ve diğerleri, [Coconut: Threshold Issuance Selective Disclosure Credentials](https://arxiv.org/abs/1802.07344), 2018 ön baskı / NDSS 2019 | Eşikli belge üretimi, seçici açıklama ve bağlantısız sunum araştırması; seçilmiş uygulama veya güncel güvenlik onayı değildir |
-| R3 | Piotrowska ve diğerleri, [The Loopix Anonymity System](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/piotrowska), USENIX Security 2017 | Karıştırma ve örtü trafiğiyle ağ mahremiyeti araştırması; uygunluk ve gerçek insan tekilliği çözümü değildir |
-| R4 | NIST, [SP 800-188: De-Identifying Government Datasets: Techniques and Governance](https://csrc.nist.gov/pubs/sp/800/188/final), 2023 | Veri ifşa riskini teknik ve yönetişim birlikte ele alır; anonimlik sertifikası değildir |
+| Denis, Jacobs, Wood, [RFC 9474: RSA Blind Signatures](https://www.rfc-editor.org/rfc/rfc9474.html), 2023 | R1 | Kör imza protokolü ve güvenlik hususları; bilgilendirici CFRG yayınıdır, Komite sistem güvenliği veya insan tekilliği kanıtı değildir |
+| Sonnino ve diğerleri, [Coconut: Threshold Issuance Selective Disclosure Credentials](https://arxiv.org/abs/1802.07344), 2018 ön baskı / NDSS 2019 | R2 | Eşikli belge üretimi, seçici açıklama ve bağlantısız sunum araştırması; seçilmiş uygulama veya güncel güvenlik onayı değildir |
+| Piotrowska ve diğerleri, [The Loopix Anonymity System](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/piotrowska), USENIX Security 2017 | R3 | Karıştırma ve örtü trafiğiyle ağ mahremiyeti araştırması; uygunluk ve gerçek insan tekilliği çözümü değildir |
+| NIST, [SP 800-188: De-Identifying Government Datasets: Techniques and Governance](https://csrc.nist.gov/pubs/sp/800/188/final), 2023 | R4 | Veri ifşa riskini teknik ve yönetişim birlikte ele alır; anonimlik sertifikası değildir |
 
-[Mimari karşılaştırma](docs/ARCHITECTURE-DIRECTIONS.md) bu kaynaklardan hareketle proje için yapılmış değerlendirmedir; kaynak yazarlarının Komite hakkındaki görüşü değildir.
+[Mimari karşılaştırma](docs/MIMARI-YONLER.md) bu kaynaklardan hareketle proje için yapılmış değerlendirmedir; kaynak yazarlarının Komite hakkındaki görüşü değildir.
 
 ## Araştırma soruları ve deney kapıları
 
@@ -26,6 +26,7 @@ Aşağıdaki kaynaklar 2026-09-03 tarihinde başlangıç taraması için incelen
 | Örneklem kimi dışarıda bırakır? | Davet ve yanıt vermeme senaryoları | Temsil iddiasının desteklenmesi veya çıkarılması; kapsanmayan grupların açıklanması |
 | Bütünlük ile mahremiyet birlikte nasıl denetlenir? | Sahte, silinmiş, tekrar ve geç bildirimlerle sentetik tur | Yeniden üretilebilir tespit kanıtı; bireysel tercihi açmayan denetim sınırı |
 | Baskı ve ele geçirilmiş cihaz karşısında ne korunamaz? | Masa başı saldırı analizi | Açık korunmama sınırları; yüksek riskli bağlamların dışlanması |
+| Komite daha dürüst, daha nitelikli veya karar için daha faydalı bir sinyal üretiyor mu? | Aynı karar sorusunu farklı, önceden kaydedilmiş yöntemlerle karşılaştıran sentetik çalışma; etik onaydan sonra ancak ayrı gönüllü çalışma düşünülebilir | “Dürüstlük” ve “nitelik” için önceden tanımlı ölçüler; alternatif açıklamalar, olumsuz sonuçlar ve genelleme sınırları; güvenlik/anonimlik başarısından ayrı rapor |
 
 İlk çalışmalar sentetik veriyle sınırlıdır. Gerçek insan araştırması ayrıca etik, gönüllülük, veri koruma ve güvenlik incelemesine tabidir; bu belge deney katılımcısı toplama izni değildir.
 
@@ -37,6 +38,8 @@ Aşağıdaki kaynaklar 2026-09-03 tarihinde başlangıç taraması için incelen
 - `insufficient_evidence`: iddia için yeterli kanıt yok; açık soru olarak kalır.
 
 Mevcut teknik hedeflerin uygulama düzeyindeki durumu `insufficient_evidence`dır. Kaynak taraması sonuçları ile protokol garantileri ayrı tutulur.
+
+“İnsanlar daha güvenli hissederse daha dürüst konuşur” ve “bu sinyal daha iyi karara yardım eder” ifadeleri **hipotezdir**. Anonimlik veya bağlantısızlık mekanizmasının çalışması bu hipotezleri doğrulamaz; hipotezlerin desteklenmesi de kriptografik güvenliği kanıtlamaz.
 
 ## Katkı biçimi
 

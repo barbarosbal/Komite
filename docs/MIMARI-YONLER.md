@@ -8,7 +8,7 @@ Durum: alternatif değerlendirmesi. Seçilmiş mimari, uygulanmış protokol vey
 
 ## Karşılaştırma
 
-Bu tablo Komite için araştırma değerlendirmesidir; kaynakların Komite’yi doğruladığı anlamına gelmez. Kaynak künyeleri [RESEARCH.md](../RESEARCH.md) içindedir.
+Bu tablo Komite için araştırma değerlendirmesidir; kaynakların Komite’yi doğruladığı anlamına gelmez. Kaynak künyeleri [Araştırma](../ARASTIRMA.md) belgesindedir.
 
 | Yön | Araştırılan katkı | Güven varsayımı / maliyet | Tek başına çözmediği alan | Sonraki deney |
 | --- | --- | --- | --- | --- |
@@ -30,12 +30,12 @@ Ayrı servisler aynı işletmeci ve gözlem altyapısını paylaşıyorsa bu ayr
 
 ## Seçim öncesi zorunlu değerlendirme
 
-1. Saldırganların birleşimi ve her bileşenin görebildiği veriler yazılır; [tehdit kaydı](THREAT-MODEL.md) eşleştirilir.
+1. Saldırganların birleşimi ve her bileşenin görebildiği veriler yazılır; [tehdit kaydı](TEHDIT-MODELI.md) eşleştirilir.
 2. Verme/kullanma, iptal, kurtarma, tekrar önleme, eşzamanlılık ve tur sınırı tanımlanır.
 3. Küçük grup politikası, veri saklama/silme ve ihlal sonrası geçmiş bilgi riski gösterilir.
 4. Seçilen kitaplık/sürüm için bakım, güvenlik incelemesi, güncel saldırılar ve yeniden üretilebilir testler değerlendirilir. Bu belgedeki kaynak listesi kitaplık onayı değildir.
 5. Gecikme, maliyet, erişilebilirlik, operasyon yükü ve başarısızlık yolları ölçülür.
-6. Seçim gerekçesi ve reddedilen alternatifler Architecture Decision Record (mimari karar kaydı) taslağına yazılır; bağımsız uzman incelemesi ve proje sahibinin açık onayı olmadan kabul edilmiş sayılmaz.
+6. Seçim gerekçesi ve reddedilen alternatifler mimari karar kaydı taslağına yazılır; bağımsız uzman incelemesi ve proje sahibinin açık onayı olmadan kabul edilmiş sayılmaz.
 
 **Differential privacy (diferansiyel mahremiyet)** yalnız toplu çıktı katmanı için ayrıca araştırılabilir. Bütçe, tekrar yayınların birleşik etkisi ve yararlılık kaybı belirtilmeden “gürültü ekledik” güvence değildir; kimlik doğrulama veya ağ anonimliği yerine geçmez.
 

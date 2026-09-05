@@ -1,23 +1,23 @@
 # Komite — Karar modeli
 
-Durum: araştırma tasarımı; çalışan davranış veya seçilmiş protokol değil. Kapsam: [SCOPE.md](../SCOPE.md).
+Durum: araştırma tasarımı; çalışan davranış veya seçilmiş protokol değil. Kapsam: [Kapsam](../KAPSAM.md).
 
 > Oy sonucu kararın kendisi değildir; karar için bir girdidir.
 
 ## Roller ve sorumluluk
 
-- **Decision owner (karar sahibi):** sorunu ve nihai karar yetkisini açıklar; sonuçtan farklı karar verirse gerekçesini kaydeder. Komite bu yetkiyi devralmaz.
-- **Facilitator (süreç kolaylaştırıcısı):** soru, kaynak, seçenek ve takvim taslağını hazırlar; çıkar çatışmasını açıklar.
-- **Eligibility operator (uygunluk işletmecisi):** bağlamsal katılım kuralını uygular. Tercihe erişmemesi bir tasarım hedefidir, mevcut garanti değildir.
-- **Participant (katılımcı):** bilgilendirilmiş ve gönüllü biçimde görüş bildirir; katılmama ve çekimserlik ayrı durumlardır.
-- **Reviewer (incelemeci):** çerçeveleme, dışlama ve ifşa riskini değerlendirir. Sonucun karar sahibi adına bağlayıcı yorumunu yapmaz.
+- **Karar sahibi:** sorunu ve nihai karar yetkisini açıklar; sonuçtan farklı karar verirse gerekçesini kaydeder. Komite bu yetkiyi devralmaz.
+- **Süreç kolaylaştırıcısı:** soru, kaynak, seçenek ve takvim taslağını hazırlar; çıkar çatışmasını açıklar.
+- **Uygunluk sorumlusu:** bağlamsal katılım kuralını uygular. Tercihe erişmemesi bir tasarım hedefidir, mevcut garanti değildir.
+- **Katılımcı:** bilgilendirilmiş ve gönüllü biçimde görüş bildirir; katılmama ve çekimserlik ayrı durumlardır.
+- **İncelemeci:** çerçeveleme, dışlama ve ifşa riskini değerlendirir. Sonucun karar sahibi adına bağlayıcı yorumunu yapmaz.
 
 ## Tasarlanan süreç
 
 1. Problem, karar sahibi, kapsam ve kararın nasıl kullanılacağı açıklanır.
 2. Hedef topluluk, uygunluk kuralı, davet/örnekleme yöntemi ve çıkar çatışmaları belgelenir. Kişi listesi kamuya açılmaz.
 3. Soru, kaynaklar, seçenekler, anlama kontrolü, kapanış zamanı ve ifşa politikası katılım öncesinde sürümlenir. Maddi değişiklikte eski ve yeni yanıtlar sessizce birleştirilmez; tur durdurulur ve yeni sürüm değerlendirilir.
-4. Understanding Gate (anlama kontrolü) bağlamı açıklar. Yanlış cevap katılım hakkını kaldırmaz; oy ağırlığını veya uygunluğu değiştirmez. Geri bildirim, erişilebilir anlatım ve tekrar okuma yolu sunulur. Atlayabilme ve ölçüm tasarımı araştırılacaktır; bu kontrol bir kanaat doğruluk sınavı değildir.
+4. Anlama kontrolü bağlamı açıklar. Yanlış cevap katılım hakkını kaldırmaz; oy ağırlığını veya uygunluğu değiştirmez. Geri bildirim, erişilebilir anlatım ve tekrar okuma yolu sunulur. Atlayabilme ve ölçüm tasarımı araştırılacaktır; bu kontrol bir kanaat doğruluk sınavı değildir.
 5. Katılımcı kabul, ret veya çekimser tercihini; isterse önceden tanımlı alternatif tavsiyesini bildirir. İlk model serbest metin içermez. Bildirim anonimliği henüz kanıtlanmış değildir.
 6. Tur kapanır. Bütünlük, eksik veri, ifşa ve tekrar sorgu denetimleri geçmeden sonuç yayımlanmaz.
 7. Güvenli bulunursa yalnız izin verilen toplu sinyal ve sınırları açıklanır. Karar sahibi sistem dışında nihai kararı ve gerekçesini verir.
@@ -27,11 +27,13 @@ Durum: araştırma tasarımı; çalışan davranış veya seçilmiş protokol de
 
 Gönderim öncesinde katılımdan vazgeçilebilir. Gönderim sonrasında belirli bir tercihi bulup silme veya değiştirme ile kimlik-tercih bağlantısızlığı arasında tasarım gerilimi vardır. Bu akış henüz seçilmedi; anonim gönderimin sonradan kişi adına geri alınabileceği vaat edilmez. Gerçek kullanım öncesinde düzeltme, geri çekme, saklama ve silme sınırları katılımcıya açıkça anlatılmalı; uygulanabilir veri koruma gereklilikleriyle birlikte incelenmelidir. Bu açıklama ve inceleme tamamlanmadan pilot başlatılmaz.
 
-## Understanding Gate: anlama ile yönlendirme arasındaki sınır
+## Anlama kontrolü: anlama ile yönlendirme arasındaki sınır
 
-**Framing (çerçeveleme)** ve **priming (önceden yönlendirme)**, “doğru cevap” üzerinden tercih telkinine dönüşebilir. Kontrol soruları görüş onayı arayamaz. Kaynak seçimi, kelime tonu, seçenek sırası ve karşı görüşün eksikliği de değerlendirilir.
+**Çerçeveleme** ve **önceden yönlendirme**, “doğru cevap” üzerinden tercih telkinine dönüşebilir. Kontrol soruları görüş onayı arayamaz. Kaynak seçimi, kelime tonu, seçenek sırası ve karşı görüşün eksikliği de değerlendirilir.
 
 Araştırma testleri: farklı taraflardan içerik incelemesi; karşıt çerçevelerle sentetik senaryolar; erişilebilirlik değerlendirmesi; ileride ayrıca onaylanırsa gönüllü ve bilgilendirilmiş yöntem çalışması. Anlama puanı ile bireysel tercih eşleştirilmez. Anlama istatistikleri de sonuçlarla aynı küçük grup ve tekrar sorgu politikasına tabidir.
+
+Anlama yanıtı, zamanlama ve tekrar deneme sayısı da hassas üstveri olabilir. Küçük grupta nadir bir anlama örüntüsü tercih toplamı, rol bilgisi veya katılım olgusuyla birleştirilerek kişiyi açığa çıkarabilir. Bu veri ayrı ekranda ya da ayrı serviste tutulsa bile bağımsız bir yayın alanı sayılmaz; [Tehdit Modeli — Küçük grup ifşa politikası](TEHDIT-MODELI.md#küçük-grup-ifşa-politikası) ile birlikte değerlendirilir.
 
 ## Sonuç sözleşmesi
 
@@ -46,7 +48,7 @@ Bir sonuç raporu aşağıdaki alanları, ifşa politikasının izin verdiği ay
 
 Anlık bireysel bildirim akışı, kişi bazlı anlama puanı ve indirilebilir ham tercihler yayımlanmaz. Alt grup oranları, toplamlar, anlama verileri ve ardışık raporlar birlikte değerlendirilir; biri diğerinin bastırılmış bilgisini çıkarmaya izin veremez. Minimum eşik henüz belirlenmemiştir: onaylı politika yoksa sonuç yayını da yoktur.
 
-**Sampling bias (örnekleme yanlılığı)** ve yanıt vermeme etkisi giderilmiş varsayılmaz. Davetlilerin çoğunluğu, toplumun çoğunluğu değildir. Temsilî örnekleme tasarımı olmadan nüfusa genelleme veya yanıltıcı güven aralığı sunulmaz.
+**Örnekleme yanlılığı** ve yanıt vermeme etkisi giderilmiş varsayılmaz. Davetlilerin çoğunluğu, toplumun çoğunluğu değildir. Temsilî örnekleme tasarımı olmadan nüfusa genelleme veya yanıltıcı güven aralığı sunulmaz.
 
 ## Durdurma koşulları
 

@@ -21,7 +21,7 @@ Küresel ölçek, tüm dünyada insan tekilliği veya baskıya dayanıklılık i
 - Sentetik deney sonucu gerçek dünyada mahremiyet, insan tekilliği veya güvenlik ispatı değildir.
 - Belge birleştirme, gerçek veri veya üretim dağıtımı yetkisi değildir.
 
-Geçiş ölçütlerinin ayrıntısı: [Yayın kontrol listesi](docs/RELEASE-CHECKLIST.md). Araştırma soruları: [Araştırma](ARASTIRMA.md).
+Geçiş ölçütlerinin ayrıntısı: [Yayın kontrol listesi](docs/YAYIN-KONTROL-LISTESI.md). Araştırma soruları: [Araştırma](ARASTIRMA.md).
 
 ## English summary
 

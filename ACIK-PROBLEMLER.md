@@ -101,7 +101,9 @@ Komite katkıları konu uzmanlığına göre parçalanabilir. Bir katkıcı büt
 
 Kamusal katkı ile proje içi yetki aynı şey değildir. Gelecekte kamusal problem gezgini ve anonim katkı yüzeyi ayrı tasarlanabilir; GitHub ve Linear doğrulanmış çalışma ve inceleme kayıtlarını taşır.
 
-## İlk problem kümesi: Mahremiyet
+## İlk problem kümeleri
+
+Bu üç küme açık problem alanlarıdır. Aşağıdaki maddeler tam problem kayıtları veya çözüm beyanları değil, ilk iskelettir; her biri çalışılmadan önce bu belgedeki problem şablonuyla ayrıntılandırılmalıdır.
 
 ### Mahremiyet
 *İnsanların düşüncelerini açığa çıkarmadan nasıl birlikte düşünebiliriz?*
@@ -123,6 +125,77 @@ Kamusal katkı ile proje içi yetki aynı şey değildir. Gelecekte kamusal prob
 
 Bu nedenle yalnız yayımlanan sonuç değil, sonuç açıklamama davranışı da mahremiyet modelinin parçasıdır.
 
+### Karar
+*İnsanların görüşleri daha iyi bir karara nasıl yardımcı olur?*
+
+İlk alt problemler:
+
+- **Bilgi** — Karar vermeden önce neyi bilmek gerekir?
+- **Uzmanlık** — Uzman bilgisi ile insanların deneyimleri nasıl birlikte değerlendirilir?
+- **Çoğunluk** — Çoğunluğun görüşü ne zaman yol gösterir, ne zaman yetmez?
+- **Azınlık** — Az sayıda insanın önemli bir görüşü nasıl kaybolmaz?
+- **Belirsizlik** — Yeterince bilmediğimizi nasıl fark ederiz?
+- **Sorumluluk** — Nihai karar kime aittir ve sinyalden farklı kararın gerekçesi nasıl görünür kalır?
+
+Bu kümenin süreç sınırları [Karar Modeli](docs/KARAR-MODELI.md) içindedir. Hiçbir alt problem için kapanma kanıtı henüz kaydedilmemiştir.
+
+### Öğrenme
+*Bir kararın iyi veya kötü olduğunu nasıl öğreniriz?*
+
+İlk alt problemler:
+
+- **Beklenti** — Karardan önce ne olacağını düşündüğümüzü nasıl kaydederiz?
+- **Sonuç** — Gerçekte ne olduğunu nasıl ölçeriz?
+- **Fark** — Beklediğimiz ile gerçekleşen arasındaki fark bize ne anlatır?
+- **Yanılgı** — Nerede yanlış düşündüğümüzü nasıl fark ederiz?
+- **Değişim** — Öğrendiğimiz şey bir sonraki kararı nasıl değiştirir?
+
+Ölçümün kendisi yanlı veya eksik olabilir; korelasyon kararın sonucu yarattığını kanıtlamaz. Bu kümede de kapanmış problem kaydı yoktur.
+
+## İnsan diliyle bağımlılık ve problem haritası
+
+Bu harita bir çözüm sırası önerir; kutuların varlığı çözüldükleri anlamına gelmez. Parantez içindeki T kodları yalnız [tehdit modeline](docs/TEHDIT-MODELI.md) geri izleme içindir.
+
+```text
+Kimin katılabileceğini adil tanımla
+  -> aynı kişinin tekrar katılımını sınırla
+  -> kimlik/uygunluk bilgisini tercihten ayır
+       -> cihaz, ağ, zaman ve işletmeci izlerini sınırla
+       -> küçük grup ve tekrar yayın ifşasını sınırla
+            -> güvenle yayımlanabilecek toplu sinyali tanımla
+
+Soruyu ve anlama içeriğini tarafsızlaştır
+  -> örneklem ve yanıt vermeme etkisini açıkla
+  -> sinyalin neyi temsil ettiğini sınırla
+       -> sinyalin daha dürüst/nitelikli olup olmadığını ayrı test et
+            -> karar sahibinin nasıl kullandığını ve sonucu nasıl öğreneceğimizi değerlendir
+
+Bütünlük ve hata davranışını doğrula
+  -> eksik, sahte, tekrar veya geç bildirimleri ayırt et
+  -> mahremiyeti bozmadan yeniden hesaplanabilir kanıt üret
+```
+
+### Kapanmayı engelleyen ilişkiler
+
+- **Kimlik-tercih bağlantısızlığı**, uygunluk/verme ile tercih alımının birlikte hareket eden işletmeciler, üstveri, istemci ve yedekler karşısında incelenmesi tamamlanmadan kapanamaz (T03, T04, T06, T10, T12).
+- **Güvenli toplu sonuç**, küçük grup, tamamlayıcı toplam, anlama verisi, katılım sayısı ve ardışık yayınların birleşik ifşa politikası olmadan kapanamaz (T02).
+- **Temsil ve karar faydası**, davet/örneklem yanlılığı ile yanıt vermeme etkisi açıklanmadan kapanamaz (T08); çoğunluk tek başına temsil kanıtı değildir.
+- **Tekil katılım**, davet devri, yeniden verme, iptal/kurtarma ve eşzamanlı kullanım testleri olmadan kapanamaz (T07).
+- **Sonuç bütünlüğü**, silme, sahte bildirim, yeniden oynatma, çift sayım ve geç yanıt testleri olmadan kapanamaz (T09).
+- **Daha dürüst veya daha nitelikli sinyal**, ölçüleri önceden tanımlanmış ayrı araştırma ve alternatif açıklamaların değerlendirilmesi olmadan kapanamaz. Bu problem kriptografi problemlerinin altına gömülemez.
+
+### Bağımsız inceleme engeli
+
+Öz-denetim çalışma kalitesini artırabilir; bağımsız inceleme değildir. Aşağıdaki liste örnekleyicidir, tüketici değildir. [Tehdit modelindeki](docs/TEHDIT-MODELI.md) T01-T12 kayıtlarının tümü gerçek kullanım iddiasına dayanak olmadan önce ilgili alanda yetkin ve değişikliği üretmemiş insan incelemesi gerektirir. Aşağıdaki problemler bu gereksinimin özellikle görünür örnekleridir ve bu inceleme olmadan **İncelemede** durumundan **Çözüldü** durumuna geçemez:
+
+- anlama içeriğinin çerçeveleme/yönlendirme riski (T01),
+- küçük grup ve birleşik ifşa politikası (T02),
+- işletmeci ayrılığı ve birlikte hareket etme varsayımları (T04),
+- seçilecek kriptografik protokol ve uygulama iddiaları,
+- gerçek katılımcılı pilot için güvenlik, mahremiyet, etik ve veri koruma sınırları.
+
+Bağımsız inceleme kapasitesi yoksa bunlar ve aynı güvenlik, mahremiyet, bütünlük, temsiliyet veya gerçek-kullanım iddiasını taşıyan diğer kayıtlar açık kalır; belge yayını veya proje sahibinin öz-denetimi kapanma kanıtı sayılmaz. Bir kaydın yukarıdaki kısa örnek listede bulunmaması bağımsız incelemeden muafiyet yaratmaz.
+
 ## English summary
 
-Komite is developed as an open problem network rather than a flat feature backlog. Each problem has explicit assumptions, dependencies, evidence, review requirements, limits, and closure criteria. Contributors may work on the problem closest to their expertise without needing full-project access. A solved problem means the defined criteria are currently satisfied, not that permanent truth has been established.
+Komite is developed as an open problem network rather than a flat feature backlog. Privacy, Decision, and Learning are initial open-problem clusters; their listed items are scaffolds, not closed problem records. Each developed problem needs explicit assumptions, dependencies, evidence, review requirements, limits, and closure criteria. All T01-T12 threats require relevant independent human review before supporting real-use claims; the shorter examples above are not exemptions. A solved problem means the defined criteria are currently satisfied, not that permanent truth has been established.

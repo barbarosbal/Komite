@@ -6,6 +6,10 @@
 
 Komite, insanların gerçek düşüncelerini daha güvenli biçimde ortaya çıkararak daha iyi bireysel ve kurumsal kararlar alınmasına yardımcı olmayı amaçlayan açık bir araştırma ve karar destek projesidir.
 
+> **Epistemik durum:** Bu cümle bir **amaçtır**; Komite'nin bugün daha dürüst, daha nitelikli veya daha güvenli bir sinyal ürettiğine ilişkin kanıtlanmış bulgu değildir. Bu etki ayrı bir araştırma problemidir.
+
+> **Epistemic status:** This sentence states an **aim**; it is not a proven finding that Komite currently produces a more honest, higher-quality, or safer signal. That effect is a separate research problem.
+
 Komite bir seçim sistemi değildir. Yönetici seçmez, temsilci seçmez, referandum yürütmez ve bağlayıcı karar üretmez.
 
 > **Komite gerçeği bilmez.**  
@@ -24,7 +28,31 @@ Komite is not an election system. It does not elect leaders or representatives, 
 > **Komite does not make the decision.**  
 > **Komite helps people see more clearly.**
 
-[Proje Sunumu / Project Deck](docs/Komite-Open-Project-Deck-v0.1.pdf) · [Açık Problemler / Open Problems](ACIK-PROBLEMLER.md) · [Katkı Rehberi / Contributing](KATKI.md) · [Güvenlik / Security](GUVENLIK.md)
+[Açık Problemler / Open Problems](ACIK-PROBLEMLER.md) · [Katkı Rehberi / Contributing](KATKI.md) · [Güvenlik / Security](GUVENLIK.md)
+
+> **Sunum durumu:** Depodaki [v0.1 proje sunumu](docs/Komite-Open-Project-Deck-v0.1-ESKI.pdf) önceki anlatımı taşır ve güncel manifesto ya da güncel proje sunumu değildir. İçindeki “Anonim Seçim” aşama adı **“Seçim · anonimlik hedefi”** olarak düzeltilmesi gereken eski anlatımdır. Kapı/Oda ifadeleri yalnız metafordur; teknik ayrışma veya anonimlik garantisi değildir. Güncel Figma dışa aktarımı doğrulanmadan bu dosya güncel kaynak olarak kullanılmamalıdır.
+
+> **Deck status:** The repository's [v0.1 project deck](docs/Komite-Open-Project-Deck-v0.1-ESKI.pdf) carries the previous narrative and is neither the current manifesto nor a current project deck. Its “Anonymous Choice” stage name is legacy wording that must become **“Choice · anonymity target.”** Door/Room language is metaphor only, not a technical separation or anonymity guarantee. Until a current Figma export is verified, this file must not be used as the current source.
+
+### İddiaları nasıl okuyoruz?
+
+- **İlke:** Projenin koruduğu düşünsel veya etik yön; teknik başarı iddiası değildir.
+- **Hedef:** Ulaşılmak istenen özellik; henüz mevcut garanti değildir.
+- **Hipotez:** Deney ve karşı örnekle sınanması gereken açıklama veya etki beklentisi.
+- **Açık Problem:** Kapanma ölçütleri ve gereken kanıt tamamlanmamış soru.
+- **Kanıtlanmış Bulgu:** Yöntemi, kapsamı, sürümü ve sınırları kaydedilmiş; bağımsızca incelenebilir sonuç. Bir bağlamdaki bulgu başka bağlama otomatik taşınmaz.
+
+Bu depoda anonimlik, uygunluk doğrulaması, insan tekilliği, kimlik-tercih bağlantısızlığı, güvenli küçük-grup yayını ve daha dürüst/nitelikli sinyal üretimi **hedef veya açık problem** durumundadır; kanıtlanmış ürün özelliği değildir.
+
+### EN · How should claims be read?
+
+- **Principle:** The intellectual or ethical direction the project protects; not a claim of technical success.
+- **Target:** A property the project seeks; not a current guarantee.
+- **Hypothesis:** An explanation or expected effect that must be tested through experiments and counterexamples.
+- **Open Problem:** A question whose closure criteria and required evidence are incomplete.
+- **Proven Finding:** A result with a recorded method, scope, version, and limitations that can be independently examined. A finding in one context does not automatically transfer to another.
+
+In this repository, anonymity, eligibility verification, human uniqueness, identity-preference unlinkability, safe small-group disclosure, and production of a more honest or higher-quality signal remain **targets or open problems**, not proven product capabilities.
 
 ---
 
@@ -231,6 +259,11 @@ Açık problemleri saklamak yerine görünür tutmayı tercih ediyoruz. Çünkü
 This repository contains research, design, and development documents. Komite is not currently a production-ready service, and the security, anonymity, scale, or verifiability goals described here are not presented as proven capabilities.
 
 We prefer to keep unresolved problems visible instead of hiding them. A decision system that cannot notice when it is wrong risks becoming part of the very problem it is trying to solve.
+
+---
+
+> **“Egemenlik kayıtsız şartsız milletindir.”**
+> — Mustafa Kemal Atatürk
 
 ---
 

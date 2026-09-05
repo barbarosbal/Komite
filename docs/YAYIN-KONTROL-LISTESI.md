@@ -1,18 +1,20 @@
 # Komite — Yayın kapıları
 
-Bu kontrol listesi bir tamamlanma beyanı değildir. Her yayın için gerçek sonuçlar, kontrol edilen commit (değişiklik kaydı), inceleme ve birleştirme kanıtı PR’da tutulur. Gelecekteki uygulama kapıları bu belge yayınıyla geçilmiş sayılmaz.
+Bu kontrol listesi bir tamamlanma beyanı değildir. Her yayın için gerçek sonuçlar, kontrol edilen değişiklik kaydı, inceleme ve birleştirme kanıtı değişiklik önerisinde tutulur. Gelecekteki uygulama kapıları bu belge yayınıyla geçilmiş sayılmaz.
 
 ## A — Bu belge temelinin yayımlanması
 
 - [ ] README ve mevcut LICENSE başlangıç sürümünde incelendi; mükerrer PR/iş kontrolü yapıldı.
 - [ ] Ayrı dal kullanıldı; `main` üzerine doğrudan yazılmadı.
-- [ ] İstenen on belge mevcut, göreli bağlantılar çalışıyor, proje adı tutarlı.
+- [ ] README'nin yönlendirdiği güncel belge seti mevcut: `ACIK-PROBLEMLER.md`, `KAPSAM.md`, `ARASTIRMA.md`, `KATKI.md`, `GUVENLIK.md`, `YONETISIM.md`, `YOL-HARITASI.md`, `docs/KARAR-MODELI.md`, `docs/TEHDIT-MODELI.md`, `docs/MIMARI-YONLER.md`, `docs/YAYIN-KONTROL-LISTESI.md` ve bu PR için `docs/CLAUDE-INCELEME-BRIFI.md`; göreli bağlantılar çalışıyor ve proje adı tutarlı.
 - [ ] Apache-2.0 LICENSE değişmedi; yeni kullanım kısıtı lisansa eklenmedi.
 - [ ] Kapsam dışı seçim/referandum/bağlayıcılık sınırları ve çekirdek ilke tutarlı.
 - [ ] Metafor mimari diye sunulmuyor; dört araştırma yönü ve birleşik tekillik/mahremiyet açığı açık.
+- [ ] `Komite-Open-Project-Deck-v0.1-ESKI.pdf` arşiv olarak etiketli; güncel sunum diye bağlantılanmıyor veya dağıtılmıyor. İç uyarı/filigran yoksa dosyanın tek başına paylaşılmasının kalan yanlış-anlaşılma riski açıkça kabul ediliyor.
 - [ ] İstenen tehditler, anlama kontrolü ve küçük grup güvenli kapanma kuralı mevcut.
 - [ ] Hassas veri, ham konuşma veya kanıtsız güvenlik/üretim iddiası yok.
 - [ ] PR farkı bütünüyle okundu; bulgular seviyelendirildi; düzeltmeler son sürümde doğrulandı.
+- [ ] İnceleme etiketi doğru: `öz-denetim`, `bağımsız insan incelemesi` veya `AI incelemesi`. Öz-denetim ve AI incelemesi bağımsız insan incelemesi diye sunulmadı.
 - [ ] Açık belge bulgusu yok; gereken insan onayları var; varsa otomatik kontroller başarılı. Otomatik kontrol yoksa açıkça belirtildi.
 - [ ] Birleştirme öncesi hedef dalın değişmediği ve beklenen PR başı doğrulandı; değiştiyse inceleme yenilendi.
 
@@ -29,9 +31,16 @@ git hash-object LICENSE
 
 Bu temelin LICENSE nesnesi `261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64` değerindedir. Lisans farkı boş kalmalıdır. README belge tablosundaki dosyaları ve tüm göreli bağlantıları tek tek açın; ad yazımını, İngilizce özetleri ve tüm farkın anlamını kontrol edin. Bu komutlar anlamsal/güvenlik incelemesinin yerine geçmez; uzak bağlantılarda oturum gereksinimini erişim hatasından ayırın. Sonuçları incelenen sürümle birlikte PR’a yazın.
 
-## B — Sentetik uygulamaya geçmeden önce
+## B — Komite sentetik deneyine geçmeden önce
 
-Amaç/kabul ölçütleri, mevcut iş/PR taraması, mimari inceleme, izole dal, veri ve aktör sınırı, bağımlılık değerlendirmesi, test planı ve ortam sözleşmesi hazırlanır. Şema değişikliği varsa migration (veri tabanı değişikliği) çakışma rezervasyonu; kimlik/yetki varsa aktör-yetki matrisi gerekir. Gerçek veri veya gizli anahtar kullanılmaz. İlgili yürütme kaydı ve kanıt bağlantısı belirlenir.
+- [ ] Deneyin bağlı olduğu açık problem, yanlışlanabilir hipotez, başarı/başarısızlık ölçütü ve kapsam dışı alanlar yazıldı.
+- [ ] Aynı problemi çözen mevcut deney, dal veya değişiklik önerisi tarandı; mükerrer çalışma açılmadı.
+- [ ] Kullanılacak sentetik katılımcı, uygunluk, davet, anlama, tercih, üstveri ve sonuç verileri envanterlendi; hiçbir gerçek kimlik, gerçek tercih veya üretim sırrı yok.
+- [ ] Saldırgan görünürlüğü ve ilgili insan dili problem başlıkları tanımlandı; T kodları yalnız geri izleme için eklendi.
+- [ ] Küçük grup, tekrar yayın, zamanlama, istemci, davet devri, eşzamanlı tekrar ve sonuç bütünlüğü kırma senaryolarından ilgili olanlar test planında.
+- [ ] Deney izole dalda, sabit veri üretimi ve tekrar çalıştırma talimatıyla yürütülecek; başarısız/olumsuz sonuçlar da saklanacak.
+- [ ] Çıktının yalnız sentetik kanıt olduğu; anonimlik, insan tekilliği, karar kalitesi, pilot veya üretim hazırlığını kanıtlamadığı rapor şablonunda görünür.
+- [ ] Gerekli inceleme türü önceden seçildi ve `öz-denetim`, `bağımsız insan incelemesi` veya `AI incelemesi` diye doğru etiketlendi.
 
 ## C — Gerçek katılımcılı pilot veya üretimden önce
 

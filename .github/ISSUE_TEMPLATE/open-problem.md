@@ -22,9 +22,9 @@ Bu problem Komite'nin ana amacını neden etkiliyor?
 
 Neyi geçici olarak doğru kabul ediyoruz?
 
-## Blocker'lar
+## Engelleyiciler
 
-Önce hangi problemlerin çözülmesi gerekiyor? Varsa issue bağlantılarını ekleyin.
+Önce hangi problemlerin çözülmesi gerekiyor? Varsa problem kaydı bağlantılarını ekleyin.
 
 ## Bağlı problemler
 
@@ -42,13 +42,13 @@ Araştırma, matematiksel model, prototip, deney, metin, test veya politika gibi
 
 Bu çalışma neyi çözmeyecek?
 
-## Kapanma kriteri
+## Kapanma ölçütü
 
-Issue hangi somut koşullar sağlandığında çözüldü kabul edilecek?
+Problem kaydı hangi somut koşullar sağlandığında çözüldü kabul edilecek?
 
 ## Katkı ve inceleme notları
 
-- Aynı problem zaten varsa yeni issue açmak yerine mevcut issue'ya katkı verin.
+- Aynı problem zaten varsa yeni kayıt açmak yerine mevcut kayda katkı verin.
 - Kişileri değil argümanları değerlendirin.
-- Hassas güvenlik açığı ayrıntılarını kamusal issue'ya koymayın; SECURITY.md yönlendirmesini izleyin.
-- Issue'nun kapanması kalıcı hakikat iddiası değildir; yeni kanıtla yeniden açılabilir.
+- Hassas güvenlik açığı ayrıntılarını kamusal problem kaydına koymayın; `GUVENLIK.md` yönlendirmesini izleyin.
+- Kaydın kapanması kalıcı hakikat iddiası değildir; yeni kanıtla yeniden açılabilir.

@@ -12,7 +12,7 @@ Katkıcı değişiklik önerir ve kanıt sağlar. İncelemeci bulguları ve ince
 
 1. Teklif, kaynaklar, alternatifler, kabul ölçütleri ve kapsam dışı alanlar açıklanır.
 2. Değişiklik ayrı dal ve PR üzerinden değerlendirilir. Yorum sayısı veya çoğunluk, kabul kararı değildir.
-3. İncelemeci BLOCKER/HIGH/MEDIUM/LOW bulgularını, dosya/sürüm ve kanıtla ilişkilendirir. Öz denetim açıkça öz denetim olarak etiketlenir.
+3. İncelemeci engelleyici/yüksek/orta/düşük bulgularını, dosya/sürüm ve kanıtla ilişkilendirir. Öz denetim açıkça öz denetim olarak etiketlenir.
 4. Düzeltme sonrası son değişiklik kaydı yeniden doğrulanır. Bu temel yayını için açık belge bulgusu kalmadan birleştirme yapılmaz.
 5. Onay kapsamı ve birleştirilen sürüm PR’da kaydedilir. Kullanıcının bu belge temelini yayımlama yetkisi, yalnız temiz belge değişikliğinin birleştirilmesini kapsar; ürün dağıtımı veya açık güvenlik riskinin kabulü değildir.
 
@@ -27,6 +27,10 @@ Bu metin GitHub branch protection (dal koruması), zorunlu incelemeci veya CI (s
 ## Kayıt ve yetki ayrımı
 
 Depodaki belgeler projenin kamuya açık tasarım/kapsam referansıdır. GitHub değişiklik ve inceleme kanıtlarını taşır; özel şirket karar kayıtlarının yerine geçmez. Kamusal PR’a yalnız yayımlanması uygun bağlam taşınır. İnceleme için gerekli gerekçe özel sistem erişimine bağımlı bırakılmaz. Yetki veya kayıtlar arasında çelişki varsa sessizce yeniden yorumlanmaz; proje sahibine sunulur.
+
+## Özel bulgudan kamusal düzeltmeye sınır
+
+[Güvenlik Politikası](GUVENLIK.md) özel bildirimin ilk temasını yönetir; bu belge ise neyin kamusal belge değişikliğine dönüşebileceğini yönetir. Sömürü yolu, kişisel veri, gizli erişim bilgisi veya yeniden tanımlama verisi kamusal PR’a kopyalanmaz. Kamusal düzeltme yalnız sorunu anlamak ve yanlış iddiayı gidermek için gereken, saldırıyı kolaylaştırmayan en az bağlamı taşır. Bildiricinin adı ve atıf biçimi açık rızası olmadan yayımlanmaz. Düzeltmenin kamusal olması güvenlik riskinin kabul edildiği, gerçek kullanıma izin verildiği veya özel ayrıntıların açıklanacağı anlamına gelmez.
 
 ## English summary
 
