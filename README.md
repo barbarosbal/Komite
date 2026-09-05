@@ -228,7 +228,7 @@ Anonymity, eligibility verification, human uniqueness, identity-preference unlin
 
 ### Belgeler / Documents
 
-- [Komite — Manifesto v0.1 (PDF)](docs/Komite-Manifesto-v0.1.pdf)
+- [Komite — Manifesto v0.1 (PDF)](docs/Komite-Manifesto.pdf)
 - [Komite — Open Project Deck v0.1 (PDF)](docs/Komite-Open-Project-Deck-v0.1.pdf)
 
 Depodaki `Komite-Open-Project-Deck-v0.1-ESKI.pdf` yalnız tarihsel arşivdir ve güncel kaynak değildir.
