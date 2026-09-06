@@ -1,6 +1,6 @@
 https://komite.io/
 
-- [Komite — Manifesto v0.1 (PDF)](docs/Komite-Manifesto.pdf)
+[Komite — Manifesto v0.1 (PDF)](docs/Komite-Manifesto.pdf)
 
 # Komite
 
